@@ -97,42 +97,6 @@ function buildTranscript(dayPlan) {
   return segs.map((s) => `# ${s.title}\n${s.text}`).join("\n\n");
 }
 
-/** iOS often doesn't stop reliably unless we do a "hard stop" */
-function iosHardStop() {
-  const synth = window.speechSynthesis;
-
-  // Pause first (helps on iOS)
-  try {
-    synth.pause();
-  } catch {}
-
-  // Cancel current + queued
-  try {
-    synth.cancel();
-  } catch {}
-
-  // Flush trick: tiny utterance then cancel again
-  try {
-    const flush = new SpeechSynthesisUtterance("");
-    flush.lang = "de-DE";
-    flush.rate = 1;
-
-    flush.onend = () => {
-      try {
-        synth.cancel();
-      } catch {}
-    };
-
-    synth.speak(flush);
-
-    setTimeout(() => {
-      try {
-        synth.cancel();
-      } catch {}
-    }, 50);
-  } catch {}
-}
-
 export default function App() {
   const [progress, setProgress] = useState(loadProgress());
 
@@ -159,10 +123,11 @@ export default function App() {
   // TTS
   const [ttsSupported, setTtsSupported] = useState(false);
   const [isSpeaking, setIsSpeaking] = useState(false);
+
   const utterQueueRef = useRef([]);
   const currentUtterRef = useRef(null);
 
-  // Stop token: guarantees your queue does not continue after Stop on iOS
+  // 🔥 stop token: increments whenever we stop; speakNext checks token
   const stopTokenRef = useRef(0);
 
   // Voice controls
@@ -188,11 +153,9 @@ export default function App() {
       const vs = window.speechSynthesis.getVoices() || [];
       setVoices(vs);
 
-      // default: prefer German voice
       if (!voiceURI) {
         const de =
-          vs.find((v) => (v.lang || "").toLowerCase().startsWith("de")) ||
-          vs[0];
+          vs.find((v) => (v.lang || "").toLowerCase().startsWith("de")) || vs[0];
         if (de) setVoiceURI(de.voiceURI);
       }
     };
@@ -222,16 +185,8 @@ export default function App() {
     setOutputReport(null);
     setResult(null);
 
-    // stop any current speech
-    try {
-      if ("speechSynthesis" in window) {
-        stopTokenRef.current += 1;
-        iosHardStop();
-      }
-    } catch {}
-    setIsSpeaking(false);
-    utterQueueRef.current = [];
-    currentUtterRef.current = null;
+    stopSpeaking(); // important
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [safeDay]);
 
   if (!dayPlan) {
@@ -266,49 +221,43 @@ export default function App() {
   }
 
   function stopSpeaking() {
-    // invalidate any in-flight queue loop
+    if (!ttsSupported) return;
+
+    // invalidate current speaking chain
     stopTokenRef.current += 1;
 
-    if (!ttsSupported) {
-      setIsSpeaking(false);
-      utterQueueRef.current = [];
-      currentUtterRef.current = null;
-      return;
-    }
-
-    try {
-      iosHardStop();
-    } catch {
-      try {
-        window.speechSynthesis.cancel();
-      } catch {}
-    }
-
-    setIsSpeaking(false);
     utterQueueRef.current = [];
     currentUtterRef.current = null;
+    setIsSpeaking(false);
+
+    try {
+      // cancel now + again shortly (Safari sometimes needs the second)
+      window.speechSynthesis.cancel();
+      setTimeout(() => {
+        try {
+          window.speechSynthesis.cancel();
+        } catch {}
+      }, 50);
+    } catch {}
   }
 
   function speakTextsAsQueue(texts) {
     if (!ttsSupported) return;
 
-    // stop any current speech and invalidate older queue loops
+    // stop anything currently playing
     stopSpeaking();
 
-    const queue = texts.filter((t) => String(t || "").trim().length > 0);
+    const queue = (texts || []).filter((t) => String(t || "").trim().length > 0);
     if (!queue.length) return;
+
+    // capture a token for this run
+    const myToken = stopTokenRef.current;
 
     utterQueueRef.current = queue;
 
-    const myToken = stopTokenRef.current;
-
     const speakNext = () => {
-      // Stop pressed? exit immediately
-      if (stopTokenRef.current !== myToken) {
-        setIsSpeaking(false);
-        currentUtterRef.current = null;
-        return;
-      }
+      // if someone pressed stop meanwhile, abort
+      if (stopTokenRef.current !== myToken) return;
 
       const next = utterQueueRef.current.shift();
       if (!next) {
@@ -319,13 +268,15 @@ export default function App() {
 
       const u = new SpeechSynthesisUtterance(next);
 
-      // voice settings
       if (selectedVoice) u.voice = selectedVoice;
       u.lang = selectedVoice?.lang || "de-DE";
       u.rate = Math.max(0.6, Math.min(1.4, Number(rate) || 1));
       u.pitch = Math.max(0.6, Math.min(1.4, Number(pitch) || 1));
 
-      u.onstart = () => setIsSpeaking(true);
+      u.onstart = () => {
+        if (stopTokenRef.current !== myToken) return;
+        setIsSpeaking(true);
+      };
 
       u.onend = () => {
         if (stopTokenRef.current !== myToken) return;
@@ -340,8 +291,11 @@ export default function App() {
       currentUtterRef.current = u;
 
       try {
+        // Some browsers need this “kick” if synthesis is paused
+        if (window.speechSynthesis.paused) window.speechSynthesis.resume();
         window.speechSynthesis.speak(u);
       } catch {
+        // fail gracefully: try next
         speakNext();
       }
     };
@@ -350,7 +304,6 @@ export default function App() {
   }
 
   function speakAllListening() {
-    // 10-min listening = 5 segments, each repeated (repeat times)
     const texts = [];
     listeningSegments.forEach((seg) => {
       const rep = Math.max(1, Number(seg.repeat || 1));
@@ -415,15 +368,9 @@ export default function App() {
   }
 
   function checkPassAndUnlock() {
-    const vocabScore = dayPlan.vocab_quiz?.length
-      ? vocabCorrect / dayPlan.vocab_quiz.length
-      : 1;
-    const grammarScore = dayPlan.grammar?.quiz?.length
-      ? grammarCorrect / dayPlan.grammar.quiz.length
-      : 1;
-    const listeningScore = listeningQuizFlat.length
-      ? listeningCorrect / listeningQuizFlat.length
-      : 1;
+    const vocabScore = dayPlan.vocab_quiz?.length ? vocabCorrect / dayPlan.vocab_quiz.length : 1;
+    const grammarScore = dayPlan.grammar?.quiz?.length ? grammarCorrect / dayPlan.grammar.quiz.length : 1;
+    const listeningScore = listeningQuizFlat.length ? listeningCorrect / listeningQuizFlat.length : 1;
 
     const outputOk = evaluateOutput();
 
@@ -504,7 +451,7 @@ export default function App() {
         <b>🔊 TTS Settings</b>
         {!ttsSupported ? (
           <div style={{ color: "salmon", marginTop: 8 }}>
-            Text-to-speech not supported. Use Chrome/Edge.
+            Text-to-speech not supported in this browser.
           </div>
         ) : (
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: 10, marginTop: 10 }}>
@@ -589,8 +536,7 @@ export default function App() {
       {/* ===================== LEARN PAGE ===================== */}
       {mode === "learn" && (
         <>
-          {/* VOCAB LIST */}
-          <h2>📚 Vocabulary List (30)</h2>
+          <h2>📚 Vocabulary List ({dayPlan.vocab_list.length})</h2>
           <div style={{ padding: 12, border: "1px solid #444", borderRadius: 12 }}>
             <div style={{ display: "flex", flexWrap: "wrap", gap: 10 }}>
               {dayPlan.vocab_list.map((v, idx) => (
@@ -605,7 +551,6 @@ export default function App() {
             </div>
           </div>
 
-          {/* GRAMMAR RULES */}
           <h2 style={{ marginTop: 18 }}>📗 Grammar</h2>
           <p>
             <b>{dayPlan.grammar.title}</b>
@@ -613,7 +558,7 @@ export default function App() {
 
           <div style={{ padding: 12, border: "1px solid #444", borderRadius: 12 }}>
             <p style={{ marginTop: 0, marginBottom: 8 }}>
-              <b>Rules (5)</b>
+              <b>Rules</b>
             </p>
             <ol style={{ marginTop: 0 }}>
               {dayPlan.grammar.rules.map((r, idx) => (
@@ -631,17 +576,14 @@ export default function App() {
             </ul>
           </div>
 
-          {/* LISTENING PRACTICE (10 min) */}
           <h2 style={{ marginTop: 18 }}>🎧 Listening Practice (≈10 minutes)</h2>
-          <p style={{ opacity: 0.85 }}>
-            Structure: 5 segments × repeat twice. Listen fully first, then go to Quiz.
-          </p>
+          <p style={{ opacity: 0.85 }}>Structure: segments × repeats. Listen fully first, then go to Quiz.</p>
 
           {ttsSupported ? (
             <div style={{ display: "flex", gap: 10, flexWrap: "wrap", marginBottom: 10 }}>
               {!isSpeaking ? (
                 <button onClick={speakAllListening} style={{ padding: "8px 12px", borderRadius: 10 }}>
-                  ▶ Play full 10-min listening
+                  ▶ Play full listening
                 </button>
               ) : (
                 <button onClick={stopSpeaking} style={{ padding: "8px 12px", borderRadius: 10 }}>
@@ -650,7 +592,7 @@ export default function App() {
               )}
             </div>
           ) : (
-            <p style={{ color: "salmon" }}>Text-to-speech not supported. Use Chrome/Edge.</p>
+            <p style={{ color: "salmon" }}>Text-to-speech not supported.</p>
           )}
 
           <div style={{ display: "grid", gap: 10 }}>
@@ -664,8 +606,7 @@ export default function App() {
                   {ttsSupported && (
                     <button
                       onClick={() => speakOneSegment(idx)}
-                      disabled={isSpeaking}
-                      style={{ padding: "6px 10px", borderRadius: 10, opacity: isSpeaking ? 0.6 : 1 }}
+                      style={{ padding: "6px 10px", borderRadius: 10 }}
                     >
                       ▶ Play segment
                     </button>
@@ -689,7 +630,6 @@ export default function App() {
       {/* ===================== QUIZ PAGE ===================== */}
       {mode === "quiz" && (
         <>
-          {/* VOCAB QUIZ */}
           <h2>📘 Vocabulary Quiz</h2>
           <p style={{ opacity: 0.85 }}>
             Correct: {vocabCorrect} / {dayPlan.vocab_quiz.length}
@@ -737,7 +677,6 @@ export default function App() {
             );
           })}
 
-          {/* GRAMMAR QUIZ */}
           <h2>📗 Grammar Quiz</h2>
           <p style={{ opacity: 0.85 }}>
             Correct: {grammarCorrect} / {dayPlan.grammar.quiz.length}
@@ -783,8 +722,7 @@ export default function App() {
             );
           })}
 
-          {/* LISTENING QUIZ */}
-          <h2>🎧 Listening Quiz (based on the 10-min audio)</h2>
+          <h2>🎧 Listening Quiz</h2>
           <p style={{ opacity: 0.85 }}>
             Correct: {listeningCorrect} / {listeningQuizFlat.length}
           </p>
@@ -793,7 +731,7 @@ export default function App() {
             <div style={{ display: "flex", gap: 10, flexWrap: "wrap", marginBottom: 10 }}>
               {!isSpeaking ? (
                 <button onClick={speakAllListening} style={{ padding: "8px 12px", borderRadius: 10 }}>
-                  ▶ Play full listening again
+                  ▶ Play listening again
                 </button>
               ) : (
                 <button onClick={stopSpeaking} style={{ padding: "8px 12px", borderRadius: 10 }}>
@@ -802,7 +740,7 @@ export default function App() {
               )}
             </div>
           ) : (
-            <p style={{ color: "salmon" }}>Text-to-speech not supported. Use Chrome/Edge.</p>
+            <p style={{ color: "salmon" }}>Text-to-speech not supported.</p>
           )}
 
           {listeningQuizFlat.map((item, idx) => {
@@ -859,7 +797,6 @@ export default function App() {
             )}
           </div>
 
-          {/* OUTPUT */}
           <h2 style={{ marginTop: 22 }}>✍️ Output</h2>
           <p>{dayPlan.output.prompt}</p>
 
