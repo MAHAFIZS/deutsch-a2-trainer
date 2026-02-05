@@ -97,11 +97,50 @@ function buildTranscript(dayPlan) {
   return segs.map((s) => `# ${s.title}\n${s.text}`).join("\n\n");
 }
 
+/** iOS often doesn't stop reliably unless we do a "hard stop" */
+function iosHardStop() {
+  const synth = window.speechSynthesis;
+
+  // Pause first (helps on iOS)
+  try {
+    synth.pause();
+  } catch {}
+
+  // Cancel current + queued
+  try {
+    synth.cancel();
+  } catch {}
+
+  // Flush trick: tiny utterance then cancel again
+  try {
+    const flush = new SpeechSynthesisUtterance("");
+    flush.lang = "de-DE";
+    flush.rate = 1;
+
+    flush.onend = () => {
+      try {
+        synth.cancel();
+      } catch {}
+    };
+
+    synth.speak(flush);
+
+    setTimeout(() => {
+      try {
+        synth.cancel();
+      } catch {}
+    }, 50);
+  } catch {}
+}
+
 export default function App() {
   const [progress, setProgress] = useState(loadProgress());
 
   const safeDay = Math.min(progress.currentDay, progress.maxUnlockedDay);
-  const dayPlan = useMemo(() => dayPlans.find((d) => d.day === safeDay), [safeDay]);
+  const dayPlan = useMemo(
+    () => dayPlans.find((d) => d.day === safeDay),
+    [safeDay]
+  );
 
   const mode = progress.mode; // "learn" | "quiz"
 
@@ -122,6 +161,9 @@ export default function App() {
   const [isSpeaking, setIsSpeaking] = useState(false);
   const utterQueueRef = useRef([]);
   const currentUtterRef = useRef(null);
+
+  // Stop token: guarantees your queue does not continue after Stop on iOS
+  const stopTokenRef = useRef(0);
 
   // Voice controls
   const [voices, setVoices] = useState([]);
@@ -148,7 +190,9 @@ export default function App() {
 
       // default: prefer German voice
       if (!voiceURI) {
-        const de = vs.find((v) => (v.lang || "").toLowerCase().startsWith("de")) || vs[0];
+        const de =
+          vs.find((v) => (v.lang || "").toLowerCase().startsWith("de")) ||
+          vs[0];
         if (de) setVoiceURI(de.voiceURI);
       }
     };
@@ -178,8 +222,12 @@ export default function App() {
     setOutputReport(null);
     setResult(null);
 
+    // stop any current speech
     try {
-      if ("speechSynthesis" in window) window.speechSynthesis.cancel();
+      if ("speechSynthesis" in window) {
+        stopTokenRef.current += 1;
+        iosHardStop();
+      }
     } catch {}
     setIsSpeaking(false);
     utterQueueRef.current = [];
@@ -218,10 +266,24 @@ export default function App() {
   }
 
   function stopSpeaking() {
-    if (!ttsSupported) return;
+    // invalidate any in-flight queue loop
+    stopTokenRef.current += 1;
+
+    if (!ttsSupported) {
+      setIsSpeaking(false);
+      utterQueueRef.current = [];
+      currentUtterRef.current = null;
+      return;
+    }
+
     try {
-      window.speechSynthesis.cancel();
-    } catch {}
+      iosHardStop();
+    } catch {
+      try {
+        window.speechSynthesis.cancel();
+      } catch {}
+    }
+
     setIsSpeaking(false);
     utterQueueRef.current = [];
     currentUtterRef.current = null;
@@ -229,6 +291,8 @@ export default function App() {
 
   function speakTextsAsQueue(texts) {
     if (!ttsSupported) return;
+
+    // stop any current speech and invalidate older queue loops
     stopSpeaking();
 
     const queue = texts.filter((t) => String(t || "").trim().length > 0);
@@ -236,7 +300,16 @@ export default function App() {
 
     utterQueueRef.current = queue;
 
+    const myToken = stopTokenRef.current;
+
     const speakNext = () => {
+      // Stop pressed? exit immediately
+      if (stopTokenRef.current !== myToken) {
+        setIsSpeaking(false);
+        currentUtterRef.current = null;
+        return;
+      }
+
       const next = utterQueueRef.current.shift();
       if (!next) {
         setIsSpeaking(false);
@@ -253,10 +326,19 @@ export default function App() {
       u.pitch = Math.max(0.6, Math.min(1.4, Number(pitch) || 1));
 
       u.onstart = () => setIsSpeaking(true);
-      u.onend = () => speakNext();
-      u.onerror = () => speakNext();
+
+      u.onend = () => {
+        if (stopTokenRef.current !== myToken) return;
+        speakNext();
+      };
+
+      u.onerror = () => {
+        if (stopTokenRef.current !== myToken) return;
+        speakNext();
+      };
 
       currentUtterRef.current = u;
+
       try {
         window.speechSynthesis.speak(u);
       } catch {
@@ -333,9 +415,15 @@ export default function App() {
   }
 
   function checkPassAndUnlock() {
-    const vocabScore = dayPlan.vocab_quiz?.length ? vocabCorrect / dayPlan.vocab_quiz.length : 1;
-    const grammarScore = dayPlan.grammar?.quiz?.length ? grammarCorrect / dayPlan.grammar.quiz.length : 1;
-    const listeningScore = listeningQuizFlat.length ? listeningCorrect / listeningQuizFlat.length : 1;
+    const vocabScore = dayPlan.vocab_quiz?.length
+      ? vocabCorrect / dayPlan.vocab_quiz.length
+      : 1;
+    const grammarScore = dayPlan.grammar?.quiz?.length
+      ? grammarCorrect / dayPlan.grammar.quiz.length
+      : 1;
+    const listeningScore = listeningQuizFlat.length
+      ? listeningCorrect / listeningQuizFlat.length
+      : 1;
 
     const outputOk = evaluateOutput();
 
@@ -415,7 +503,9 @@ export default function App() {
       <div style={{ padding: 12, border: "1px solid #444", borderRadius: 12, marginBottom: 18 }}>
         <b>🔊 TTS Settings</b>
         {!ttsSupported ? (
-          <div style={{ color: "salmon", marginTop: 8 }}>Text-to-speech not supported. Use Chrome/Edge.</div>
+          <div style={{ color: "salmon", marginTop: 8 }}>
+            Text-to-speech not supported. Use Chrome/Edge.
+          </div>
         ) : (
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: 10, marginTop: 10 }}>
             <div>
@@ -543,7 +633,9 @@ export default function App() {
 
           {/* LISTENING PRACTICE (10 min) */}
           <h2 style={{ marginTop: 18 }}>🎧 Listening Practice (≈10 minutes)</h2>
-          <p style={{ opacity: 0.85 }}>Structure: 5 segments × repeat twice. Listen fully first, then go to Quiz.</p>
+          <p style={{ opacity: 0.85 }}>
+            Structure: 5 segments × repeat twice. Listen fully first, then go to Quiz.
+          </p>
 
           {ttsSupported ? (
             <div style={{ display: "flex", gap: 10, flexWrap: "wrap", marginBottom: 10 }}>
@@ -828,7 +920,9 @@ export default function App() {
                 <li>Output rules: {result.outputOk ? "Passed" : "Failed"}</li>
               </ul>
               {!result.passed && (
-                <p style={{ marginTop: 10, opacity: 0.85 }}>Fix failed parts and try again. Next day stays locked until passed.</p>
+                <p style={{ marginTop: 10, opacity: 0.85 }}>
+                  Fix failed parts and try again. Next day stays locked until passed.
+                </p>
               )}
             </div>
           )}
