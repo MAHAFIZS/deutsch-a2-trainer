@@ -1,0 +1,2933 @@
+[
+  {
+    "day": 1,
+    "topic": "Daily routine (A2)",
+    "vocab_list": [
+      { "de": "aufstehen", "en": "to get up" },
+      { "de": "frühstücken", "en": "to have breakfast" },
+      { "de": "arbeiten", "en": "to work" },
+      { "de": "lernen", "en": "to learn/study" },
+      { "de": "müde", "en": "tired" },
+      { "de": "früh", "en": "early" },
+      { "de": "spät", "en": "late" },
+      { "de": "duschen", "en": "to shower" },
+      { "de": "anziehen", "en": "to get dressed" },
+      { "de": "losgehen", "en": "to leave / set off" },
+      { "de": "zur Arbeit fahren", "en": "to go to work" },
+      { "de": "die U-Bahn", "en": "subway" },
+      { "de": "der Bus", "en": "bus" },
+      { "de": "zu Hause", "en": "at home" },
+      { "de": "Mittagspause", "en": "lunch break" },
+      { "de": "Mittag essen", "en": "to eat lunch" },
+      { "de": "einkaufen", "en": "to shop" },
+      { "de": "kochen", "en": "to cook" },
+      { "de": "aufräumen", "en": "to tidy up" },
+      { "de": "fernsehen", "en": "to watch TV" },
+      { "de": "telefonieren", "en": "to call" },
+      { "de": "spazieren gehen", "en": "to go for a walk" },
+      { "de": "Hausaufgaben machen", "en": "to do homework" },
+      { "de": "sich ausruhen", "en": "to rest" },
+      { "de": "schlafen gehen", "en": "to go to sleep" },
+      { "de": "der Wecker", "en": "alarm clock" },
+      { "de": "pünktlich", "en": "on time" },
+      { "de": "normalerweise", "en": "normally" },
+      { "de": "manchmal", "en": "sometimes" },
+      { "de": "danach", "en": "after that" }
+    ],
+    "vocab_quiz": [
+      { "word": "aufstehen", "choices": ["to get up", "to sleep", "to buy", "to cook"], "answer": "to get up" },
+      { "word": "müde", "choices": ["tired", "hungry", "late", "early"], "answer": "tired" },
+      { "word": "einkaufen", "choices": ["to shop", "to work", "to travel", "to rest"], "answer": "to shop" },
+      { "word": "aufräumen", "choices": ["to tidy up", "to invite", "to meet", "to learn"], "answer": "to tidy up" },
+      { "word": "pünktlich", "choices": ["on time", "late", "sick", "quiet"], "answer": "on time" },
+      { "word": "normalerweise", "choices": ["normally", "never", "now", "yesterday"], "answer": "normally" },
+      { "word": "danach", "choices": ["after that", "before", "tomorrow", "always"], "answer": "after that" }
+    ],
+    "grammar": {
+      "title": "Perfekt: haben/sein + Partizip II",
+      "rules": [
+        "Perfekt = haben/sein + Partizip II.",
+        "haben: most verbs → Ich habe gelernt / gearbeitet.",
+        "sein: movement/change of state → Ich bin gegangen / eingeschlafen.",
+        "Partizip II: often ge- + (t/en), but many irregular forms exist.",
+        "Time words help: gestern, danach, später make the story clear."
+      ],
+      "examples": [
+        "Gestern habe ich gearbeitet.",
+        "Danach habe ich eingekauft.",
+        "Später bin ich nach Hause gegangen.",
+        "Ich bin früh aufgestanden und habe gefrühstückt."
+      ],
+      "quiz": [
+        { "q": "Ich ___ gestern gearbeitet.", "choices": ["habe", "bin"], "a": "habe" },
+        { "q": "Wir ___ nach Hause gegangen.", "choices": ["haben", "sind"], "a": "sind" },
+        { "q": "Er ___ spät eingeschlafen.", "choices": ["hat", "ist"], "a": "ist" }
+      ]
+    },
+    "listening": {
+      "level": "A2",
+      "totalMinutes": 10,
+      "segments": [
+        {
+          "id": 1,
+          "title": "Morgen",
+          "repeat": 2,
+          "text": "Normalerweise stehe ich um halb sieben auf. Der Wecker klingelt, und ich bin zuerst noch müde. Dann dusche ich schnell, ziehe mich an und frühstücke. Ich trinke oft Kaffee und esse etwas Kleines. Danach mache ich meine Tasche fertig und gehe aus dem Haus. Wenn ich pünktlich sein will, muss ich früh losgehen.",
+          "quiz": [
+            { "q": "Wann steht die Person normalerweise auf?", "choices": ["um 6:00", "um 6:30", "um 7:30"], "a": "um 6:30" },
+            { "q": "Was macht die Person nach dem Frühstück?", "choices": ["sie geht sofort schlafen", "sie macht die Tasche fertig", "sie sieht fern"], "a": "sie macht die Tasche fertig" }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Weg zur Arbeit",
+          "repeat": 2,
+          "text": "Zur Arbeit fahre ich meistens mit der U-Bahn. Manchmal nehme ich auch den Bus, wenn die U-Bahn zu voll ist. Im Zug höre ich Musik oder lese kurze Nachrichten. Ich komme gegen acht Uhr an und beginne zu arbeiten. Vormittags habe ich oft viele Aufgaben, aber ich versuche ruhig zu bleiben.",
+          "quiz": [
+            { "q": "Womit fährt die Person meistens zur Arbeit?", "choices": ["mit der U-Bahn", "mit dem Fahrrad", "mit dem Taxi"], "a": "mit der U-Bahn" },
+            { "q": "Was macht die Person im Zug manchmal?", "choices": ["sie kocht", "sie hört Musik", "sie schläft immer"], "a": "sie hört Musik" }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Nachmittag und Abend",
+          "repeat": 2,
+          "text": "Am Mittag mache ich eine kurze Mittagspause und esse etwas. Am Nachmittag bin ich manchmal müde, aber ich arbeite weiter. Nach der Arbeit gehe ich einkaufen oder mache zu Hause Hausaufgaben. Abends koche ich, räume ein bisschen auf und sehe manchmal fern. Wenn ich Zeit habe, gehe ich auch spazieren oder telefoniere mit Freunden.",
+          "quiz": [
+            { "q": "Was macht die Person mittags?", "choices": ["eine Mittagspause", "Sport im Büro", "einen Film"], "a": "eine Mittagspause" },
+            { "q": "Was macht die Person abends manchmal?", "choices": ["fernsehen", "zur Arbeit fahren", "im Zug schlafen"], "a": "fernsehen" }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Gestern (Perfekt)",
+          "repeat": 2,
+          "text": "Gestern bin ich früh aufgestanden und habe schnell gefrühstückt. Danach habe ich gearbeitet und am Nachmittag habe ich eingekauft. Zu Hause habe ich gekocht und später habe ich aufgeräumt. Am Abend habe ich telefoniert und kurz ferngesehen. Dann bin ich spät schlafen gegangen, weil ich noch Hausaufgaben gemacht habe.",
+          "quiz": [
+            { "q": "Welche Zeitform hört man besonders?", "choices": ["Präsens", "Perfekt", "Futur"], "a": "Perfekt" },
+            { "q": "Was hat die Person nach der Arbeit gemacht?", "choices": ["eingekauft", "gefahren", "geschlafen"], "a": "eingekauft" }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Mini-Wiederholung",
+          "repeat": 2,
+          "text": "Ich stehe früh auf, aber manchmal bin ich müde. Ich frühstücke zu Hause und fahre dann zur Arbeit. In der Mittagspause esse ich etwas. Danach kaufe ich ein und koche. Am Abend räume ich auf und gehe spazieren, wenn ich Zeit habe.",
+          "quiz": [
+            { "q": "Wo frühstückt die Person?", "choices": ["zu Hause", "im Bus", "im Büro"], "a": "zu Hause" },
+            { "q": "Was macht die Person nach dem Einkaufen?", "choices": ["kochen", "schlafen", "umziehen"], "a": "kochen" }
+          ]
+        }
+      ]
+    },
+    "output": {
+      "prompt": "Write 6–8 sentences about yesterday using Perfekt. Use at least 2 time words (gestern, danach, später) and at least 2 vocab words from today."
+    },
+    "outputRules": {
+      "minSentences": 6,
+      "mustIncludeAny": ["gestern", "danach", "später"],
+      "mustIncludeAllPatterns": ["\\bhabe\\b", "\\bbin\\b"],
+      "mustUseVocabAtLeast": 2
+    },
+    "passRules": {
+      "vocabMinCorrect": 0.8,
+      "grammarMinCorrect": 0.7,
+      "listeningMinCorrect": 0.67,
+      "minOutputChars": 120
+    }
+  },
+
+  {
+    "day": 2,
+    "topic": "Time & duration (seit/vor) (A2)",
+    "vocab_list": [
+      { "de": "seit", "en": "since / for (ongoing)" },
+      { "de": "vor", "en": "ago" },
+      { "de": "die Zeit", "en": "time" },
+      { "de": "der Zeitpunkt", "en": "point in time" },
+      { "de": "die Dauer", "en": "duration" },
+      { "de": "das Jahr", "en": "year" },
+      { "de": "der Monat", "en": "month" },
+      { "de": "die Woche", "en": "week" },
+      { "de": "der Tag", "en": "day" },
+      { "de": "heute", "en": "today" },
+      { "de": "gestern", "en": "yesterday" },
+      { "de": "morgen", "en": "tomorrow" },
+      { "de": "früher", "en": "earlier / in the past" },
+      { "de": "damals", "en": "back then" },
+      { "de": "lange", "en": "for a long time" },
+      { "de": "kurz", "en": "short" },
+      { "de": "anfangen", "en": "to start" },
+      { "de": "beginnen", "en": "to begin" },
+      { "de": "enden", "en": "to end" },
+      { "de": "leben", "en": "to live" },
+      { "de": "wohnen", "en": "to live / reside" },
+      { "de": "arbeiten", "en": "to work" },
+      { "de": "lernen", "en": "to learn" },
+      { "de": "umziehen", "en": "to move house" },
+      { "de": "kennen", "en": "to know (a person)" },
+      { "de": "treffen", "en": "to meet" },
+      { "de": "schon", "en": "already" },
+      { "de": "noch", "en": "still / yet" },
+      { "de": "erst", "en": "only / just" },
+      { "de": "immer", "en": "always" }
+    ],
+    "vocab_quiz": [
+      { "word": "seit", "choices": ["since/for", "ago", "until", "during"], "answer": "since/for" },
+      { "word": "vor", "choices": ["ago", "since", "now", "later"], "answer": "ago" },
+      { "word": "die Dauer", "choices": ["duration", "city", "bus", "alarm clock"], "answer": "duration" },
+      { "word": "umziehen", "choices": ["to move house", "to invite", "to pay", "to cook"], "answer": "to move house" },
+      { "word": "früher", "choices": ["earlier", "tomorrow", "never", "fast"], "answer": "earlier" },
+      { "word": "noch", "choices": ["still/yet", "already", "only", "ago"], "answer": "still/yet" },
+      { "word": "erst", "choices": ["only/just", "always", "often", "slowly"], "answer": "only/just" }
+    ],
+    "grammar": {
+      "title": "Zeitangaben: seit vs. vor (A2)",
+      "rules": [
+        "seit = started in the past and continues now (ongoing).",
+        "seit is usually used with Präsens: Ich wohne seit 2022 hier.",
+        "seit + time point (seit Montag) or duration (seit zwei Jahren).",
+        "vor = finished in the past (ago): Ich habe ihn vor zwei Tagen gesehen.",
+        "vor + Dativ: vor einem Jahr, vor drei Wochen."
+      ],
+      "examples": [
+        "Ich lerne seit drei Monaten Deutsch.",
+        "Wir wohnen seit 2021 in Deutschland.",
+        "Ich habe sie vor einer Woche getroffen.",
+        "Er ist vor zwei Jahren umgezogen."
+      ],
+      "quiz": [
+        { "q": "Ich wohne ___ 2021 hier.", "choices": ["seit", "vor"], "a": "seit" },
+        { "q": "Ich habe ihn ___ zwei Tagen gesehen.", "choices": ["seit", "vor"], "a": "vor" },
+        { "q": "Wir lernen Deutsch ___ drei Monaten.", "choices": ["seit", "vor"], "a": "seit" }
+      ]
+    },
+    "listening": {
+      "level": "A2",
+      "totalMinutes": 10,
+      "segments": [
+        { "id": 1, "title": "Seit (ongoing)", "repeat": 2, "text": "Ich wohne seit 2021 in Deutschland. Am Anfang war alles neu, aber jetzt kenne ich die Stadt schon gut. Ich lerne seit drei Monaten intensiver Deutsch und ich versuche, jeden Tag zu üben. Seit einer Woche habe ich einen neuen Plan: morgens wiederholen, mittags kurze Texte lesen und abends hören. So bleibt der Rhythmus stabil.", "quiz": [ { "q": "Seit wann wohnt die Person in Deutschland?", "choices": ["seit 2021", "seit 2019", "seit gestern"], "a": "seit 2021" }, { "q": "Was macht die Person seit drei Monaten?", "choices": ["arbeitet weniger", "lernt intensiver Deutsch", "zieht um"], "a": "lernt intensiver Deutsch" } ] },
+        { "id": 2, "title": "Vor (ago)", "repeat": 2, "text": "Vor einem Jahr ist die Person umgezogen. Vor zwei Monaten hat sie einen neuen Job angefangen. Vor drei Wochen hat sie eine Freundin getroffen, und sie haben zusammen Kaffee getrunken. Vor zwei Tagen war sie sehr müde, weil sie wenig geschlafen hat. Mit solchen Sätzen kann man klar sagen, wann etwas passiert ist.", "quiz": [ { "q": "Wann ist die Person umgezogen?", "choices": ["vor einem Jahr", "seit einem Jahr", "morgen"], "a": "vor einem Jahr" }, { "q": "Warum war die Person vor zwei Tagen müde?", "choices": ["weil sie viel Sport gemacht hat", "weil sie wenig geschlafen hat", "weil sie umgezogen ist"], "a": "weil sie wenig geschlafen hat" } ] },
+        { "id": 3, "title": "Seit + Dauer / Zeitpunkt", "repeat": 2, "text": "Seit Montag lernt die Person jeden Tag. Seit zwei Wochen schreibt sie kurze Sätze und kontrolliert die Fehler. Seit einem Monat hört sie auch längere Texte, damit das Hören besser wird. Wenn man einen Zeitpunkt nennt, sagt man seit Montag oder seit 2022. Wenn man eine Dauer nennt, sagt man seit zwei Wochen oder seit drei Monaten.", "quiz": [ { "q": "Was bedeutet 'seit Montag'?", "choices": ["seit einem Zeitpunkt", "vor langer Zeit", "in der Zukunft"], "a": "seit einem Zeitpunkt" }, { "q": "Was ist ein Beispiel für eine Dauer?", "choices": ["seit 2022", "seit Montag", "seit zwei Wochen"], "a": "seit zwei Wochen" } ] },
+        { "id": 4, "title": "Gemischt (seit/vor)", "repeat": 2, "text": "Die Person lebt seit zwei Jahren hier, aber vor einem Jahr hat sie die Wohnung gewechselt. Seitdem fühlt sie sich wohler. Vor drei Wochen hat sie angefangen, regelmäßig zu lernen. Seit dieser Zeit macht sie jeden Tag ein bisschen. Vor ein paar Tagen hat sie gemerkt: Der Fortschritt kommt, wenn man dranbleibt.", "quiz": [ { "q": "Was hat die Person vor einem Jahr gemacht?", "choices": ["die Wohnung gewechselt", "Deutsch beendet", "eine Woche gewartet"], "a": "die Wohnung gewechselt" }, { "q": "Seit wann lernt die Person regelmäßig?", "choices": ["seit drei Wochen", "vor zwei Jahren", "morgen"], "a": "seit drei Wochen" } ] },
+        {
+          "id": 5,
+          "title": "Mini-Dialog (seit/vor)",
+          "repeat": 2,
+          "text": "Seit wann lernst du Deutsch? Seit drei Monaten. Und wann bist du umgezogen? Vor einem Jahr. Seitdem wohnst du hier? Ja, seitdem. Vor zwei Tagen habe ich wieder viel gelernt. Jetzt bleibe ich dran.",
+          "quiz": [
+            { "q": "Seit wann lernt die Person Deutsch?", "choices": ["seit drei Monaten", "vor einem Jahr", "morgen"], "a": "seit drei Monaten" },
+            { "q": "Wann ist die Person umgezogen?", "choices": ["vor einem Jahr", "seit einem Jahr", "seit drei Monaten"], "a": "vor einem Jahr" }
+          ]
+        }
+      ]
+    },
+    "output": { "prompt": "Write 6–8 sentences: 3 sentences with SEIT (ongoing) + 3 sentences with VOR (ago). Use at least 2 vocab words from today." },
+    "outputRules": { "minSentences": 6, "mustIncludeAny": ["seit", "vor"], "mustIncludeAllPatterns": [], "mustUseVocabAtLeast": 2 },
+    "passRules": { "vocabMinCorrect": 0.8, "grammarMinCorrect": 0.7, "listeningMinCorrect": 0.67, "minOutputChars": 120 }
+  },
+
+  {
+    "day": 3,
+    "topic": "Free time & hobbies (A2)",
+    "vocab_list": [
+      { "de": "lesen", "en": "to read" },
+      { "de": "schreiben", "en": "to write" },
+      { "de": "Sport machen", "en": "to do sports" },
+      { "de": "joggen", "en": "to jog" },
+      { "de": "schwimmen", "en": "to swim" },
+      { "de": "tanzen", "en": "to dance" },
+      { "de": "Musik hören", "en": "to listen to music" },
+      { "de": "fernsehen", "en": "to watch TV" },
+      { "de": "ins Kino gehen", "en": "to go to the cinema" },
+      { "de": "Freunde treffen", "en": "to meet friends" },
+      { "de": "spazieren gehen", "en": "to go for a walk" },
+      { "de": "wandern", "en": "to hike" },
+      { "de": "kochen", "en": "to cook" },
+      { "de": "spielen", "en": "to play" },
+      { "de": "einladen", "en": "to invite" },
+      { "de": "oft", "en": "often" },
+      { "de": "manchmal", "en": "sometimes" },
+      { "de": "selten", "en": "rarely" },
+      { "de": "nie", "en": "never" },
+      { "de": "immer", "en": "always" },
+      { "de": "gern(e)", "en": "gladly / like to" },
+      { "de": "allein", "en": "alone" },
+      { "de": "zusammen", "en": "together" },
+      { "de": "am Wochenende", "en": "at the weekend" },
+      { "de": "abends", "en": "in the evenings" },
+      { "de": "nachmittags", "en": "in the afternoons" },
+      { "de": "Zeit haben", "en": "to have time" },
+      { "de": "Spaß machen", "en": "to be fun" },
+      { "de": "entspannen", "en": "to relax" },
+      { "de": "das Hobby", "en": "hobby" }
+    ],
+    "vocab_quiz": [
+      { "word": "gern(e)", "choices": ["gladly / like to", "never", "tomorrow", "fast"], "answer": "gladly / like to" },
+      { "word": "selten", "choices": ["rarely", "often", "always", "now"], "answer": "rarely" },
+      { "word": "wandern", "choices": ["to hike", "to sleep", "to pay", "to wash"], "answer": "to hike" },
+      { "word": "zusammen", "choices": ["together", "alone", "late", "early"], "answer": "together" },
+      { "word": "entspannen", "choices": ["to relax", "to invite", "to cook", "to travel"], "answer": "to relax" },
+      { "word": "am Wochenende", "choices": ["at the weekend", "in the morning", "at home", "right now"], "answer": "at the weekend" },
+      { "word": "Zeit haben", "choices": ["to have time", "to be tired", "to be late", "to be sick"], "answer": "to have time" }
+    ],
+    "grammar": {
+      "title": "Frequency + gern(e) + word order (A2)",
+      "rules": [
+        "Adverbs of frequency: immer, oft, manchmal, selten, nie.",
+        "Word order: adverb usually comes after the verb: Ich lese oft.",
+        "You can move adverb to position 1 for emphasis: Oft lese ich.",
+        "gern(e) expresses preference: Ich schwimme gern.",
+        "Time words like abends/am Wochenende can start the sentence: Am Wochenende treffe ich Freunde."
+      ],
+      "examples": [
+        "Ich lese oft und ich schreibe manchmal.",
+        "Am Wochenende mache ich Sport.",
+        "Ich koche gern, aber ich tanze selten."
+      ],
+      "quiz": [
+        { "q": "Ich ___ Sport.", "choices": ["mache oft", "oft mache"], "a": "mache oft" },
+        { "q": "Ich ___ schwimmen.", "choices": ["gern", "vor"], "a": "gern" },
+        { "q": "___ treffe ich Freunde.", "choices": ["Am Wochenende", "Vor zwei Tagen"], "a": "Am Wochenende" }
+      ]
+    },
+    "listening": {
+      "level": "A2",
+      "totalMinutes": 10,
+      "segments": [
+        { "id": 1, "title": "Hobbys", "repeat": 2, "text": "In meiner Freizeit lese ich gern, besonders abends. Manchmal schreibe ich kurze Notizen, damit ich neue Wörter besser merke. Am Wochenende habe ich mehr Zeit und ich treffe oft Freunde. Wir trinken Kaffee, reden viel und planen, was wir zusammen machen können. Es macht Spaß, wenn man nicht immer allein ist.", "quiz": [ { "q": "Was macht die Person abends gern?", "choices": ["lesen", "joggen", "arbeiten"], "a": "lesen" }, { "q": "Wann trifft die Person oft Freunde?", "choices": ["am Wochenende", "nachts", "im Zug"], "a": "am Wochenende" } ] },
+        { "id": 2, "title": "Sport und Bewegung", "repeat": 2, "text": "Sport mache ich nicht jeden Tag, aber ich versuche regelmäßig zu joggen oder zu schwimmen. Nachmittags gehe ich manchmal spazieren, wenn das Wetter gut ist. Im Sommer wandere ich gern in den Bergen. Danach fühle ich mich entspannt, und ich schlafe besser. Wenn ich keine Zeit habe, mache ich nur kurze Übungen zu Hause.", "quiz": [ { "q": "Welche Aktivität macht die Person im Sommer gern?", "choices": ["wandern", "fernsehen", "arbeiten"], "a": "wandern" }, { "q": "Wie fühlt sich die Person nach dem Wandern?", "choices": ["entspannt", "wütend", "krank"], "a": "entspannt" } ] },
+        { "id": 3, "title": "Abends", "repeat": 2, "text": "Abends koche ich oft und sehe danach manchmal fern. Selten gehe ich ins Kino, weil es teuer ist. Wenn ich Freunde einlade, spielen wir Karten oder hören Musik. Zusammen macht es mehr Spaß als allein. Manchmal tanzen wir sogar ein bisschen, aber das passiert nicht so oft.", "quiz": [ { "q": "Warum geht die Person selten ins Kino?", "choices": ["weil es teuer ist", "weil es kalt ist", "weil sie müde ist"], "a": "weil es teuer ist" }, { "q": "Was machen die Freunde, wenn sie eingeladen sind?", "choices": ["Karten spielen oder Musik hören", "arbeiten", "umziehen"], "a": "Karten spielen oder Musik hören" } ] },
+        { "id": 4, "title": "Gestern (Perfekt + Freizeit)", "repeat": 2, "text": "Gestern habe ich nachmittags Sport gemacht und später habe ich Freunde getroffen. Wir sind spazieren gegangen und haben viel geredet. Danach habe ich zu Hause gekocht und ein bisschen ferngesehen. Am Ende des Tages habe ich noch gelesen und dann bin ich schlafen gegangen.", "quiz": [ { "q": "Was hat die Person gestern nachmittags gemacht?", "choices": ["Sport gemacht", "umgezogen", "gearbeitet"], "a": "Sport gemacht" }, { "q": "Was hat die Person am Ende des Tages gemacht?", "choices": ["gelesen", "gejoggt", "gearbeitet"], "a": "gelesen" } ] },
+        {
+          "id": 5,
+          "title": "Mini-Wiederholung",
+          "repeat": 2,
+          "text": "Ich lese gern abends und treffe am Wochenende Freunde. Manchmal mache ich Sport, zum Beispiel joggen oder schwimmen. Zusammen macht es mehr Spaß. Wenn ich Zeit habe, gehe ich spazieren. Danach entspanne ich mich.",
+          "quiz": [
+            { "q": "Wann liest die Person gern?", "choices": ["abends", "morgens", "im Büro"], "a": "abends" },
+            { "q": "Was macht die Person, wenn sie Zeit hat?", "choices": ["spazieren gehen", "umziehen", "arbeiten"], "a": "spazieren gehen" }
+          ]
+        }
+      ]
+    },
+    "output": { "prompt": "Write 6–8 sentences about your free time. Use frequency words (immer/oft/manchmal/selten/nie) and at least 2 vocab words from today." },
+    "outputRules": { "minSentences": 6, "mustIncludeAny": ["oft", "manchmal", "selten", "nie", "immer"], "mustIncludeAllPatterns": [], "mustUseVocabAtLeast": 2 },
+    "passRules": { "vocabMinCorrect": 0.8, "grammarMinCorrect": 0.7, "listeningMinCorrect": 0.67, "minOutputChars": 120 }
+  },
+
+  {
+    "day": 4,
+    "topic": "Past experiences (A2)",
+    "vocab_list": [
+      { "de": "reisen", "en": "to travel" },
+      { "de": "besuchen", "en": "to visit" },
+      { "de": "erleben", "en": "to experience" },
+      { "de": "sehen", "en": "to see" },
+      { "de": "machen", "en": "to do/make" },
+      { "de": "probieren", "en": "to try" },
+      { "de": "kennenlernen", "en": "to get to know" },
+      { "de": "schon", "en": "already" },
+      { "de": "noch nie", "en": "never before" },
+      { "de": "einmal", "en": "once" },
+      { "de": "zweimal", "en": "twice" },
+      { "de": "oft", "en": "often" },
+      { "de": "früher", "en": "earlier" },
+      { "de": "damals", "en": "back then" },
+      { "de": "das Land", "en": "country" },
+      { "de": "die Stadt", "en": "city" },
+      { "de": "der Ort", "en": "place" },
+      { "de": "der Urlaub", "en": "vacation" },
+      { "de": "das Erlebnis", "en": "experience" },
+      { "de": "interessant", "en": "interesting" },
+      { "de": "spannend", "en": "exciting" },
+      { "de": "langweilig", "en": "boring" },
+      { "de": "glücklich", "en": "happy" },
+      { "de": "zufrieden", "en": "satisfied" },
+      { "de": "überrascht", "en": "surprised" },
+      { "de": "Angst haben", "en": "to be afraid" },
+      { "de": "sich erinnern", "en": "to remember" },
+      { "de": "fotografieren", "en": "to take photos" },
+      { "de": "das Museum", "en": "museum" },
+      { "de": "die Reise", "en": "trip/journey" }
+    ],
+    "vocab_quiz": [
+      { "word": "noch nie", "choices": ["never before", "already", "often", "tomorrow"], "answer": "never before" },
+      { "word": "überrascht", "choices": ["surprised", "tired", "late", "quiet"], "answer": "surprised" },
+      { "word": "fotografieren", "choices": ["to take photos", "to pay", "to cook", "to move"], "answer": "to take photos" },
+      { "word": "spannend", "choices": ["exciting", "boring", "early", "small"], "answer": "exciting" },
+      { "word": "sich erinnern", "choices": ["to remember", "to forget", "to invite", "to buy"], "answer": "to remember" },
+      { "word": "das Museum", "choices": ["museum", "bus", "alarm clock", "week"], "answer": "museum" },
+      { "word": "der Urlaub", "choices": ["vacation", "office", "meeting", "ticket"], "answer": "vacation" }
+    ],
+    "grammar": {
+      "title": "Perfekt for experiences + schon / noch nie",
+      "rules": [
+        "Use Perfekt to talk about experiences in the past.",
+        "schon = already: Ich habe das schon gemacht.",
+        "noch nie = never before: Ich habe das noch nie gesehen.",
+        "einmal/zweimal/oft show how many times something happened.",
+        "sein vs haben: movement/change → sein, otherwise haben."
+      ],
+      "examples": [
+        "Ich habe schon viele Städte besucht.",
+        "Ich habe das noch nie probiert.",
+        "Ich bin letztes Jahr nach Berlin gefahren."
+      ],
+      "quiz": [
+        { "q": "Ich habe das ___ gemacht.", "choices": ["schon", "vor"], "a": "schon" },
+        { "q": "Ich habe das ___ gesehen.", "choices": ["noch nie", "seit"], "a": "noch nie" },
+        { "q": "Wir ___ nach München gefahren.", "choices": ["sind", "haben"], "a": "sind" }
+      ]
+    },
+    "listening": {
+      "level": "A2",
+      "totalMinutes": 10,
+      "segments": [
+        { "id": 1, "title": "Urlaub früher", "repeat": 2, "text": "Früher bin ich in den Ferien oft gereist. Damals hatte ich mehr Zeit und ich wollte viele Orte sehen. In einem Urlaub habe ich eine große Stadt besucht und viele Fotos gemacht. Das Museum dort war sehr interessant, und ich habe viel gelernt. Nach solchen Reisen erinnere ich mich lange an die Details.", "quiz": [ { "q": "Was hat die Person im Urlaub oft gemacht?", "choices": ["gereist", "nur gearbeitet", "nie rausgegangen"], "a": "gereist" }, { "q": "Was war interessant?", "choices": ["das Museum", "der Bus", "der Wecker"], "a": "das Museum" } ] },
+        { "id": 2, "title": "Schon / noch nie", "repeat": 2, "text": "Ich habe schon einige Länder besucht und ich habe schon viele Dinge probiert. Aber manche Dinge habe ich noch nie gemacht. Ich war zum Beispiel noch nie in Japan. Ich habe auch noch nie in einem sehr kalten Land Urlaub gemacht. Manchmal bin ich überrascht, wie groß die Welt ist.", "quiz": [ { "q": "Wo war die Person noch nie?", "choices": ["in Japan", "zu Hause", "im Büro"], "a": "in Japan" }, { "q": "Was zeigt 'noch nie'?", "choices": ["etwas wurde nie gemacht", "etwas passiert morgen", "etwas ist immer"], "a": "etwas wurde nie gemacht" } ] },
+        { "id": 3, "title": "Ein Erlebnis", "repeat": 2, "text": "Einmal habe ich eine Reise gemacht, die sehr spannend war. Wir sind früh losgefahren und haben unterwegs viel gesehen. Am Ende waren wir zufrieden, aber auch müde. Ich habe dort neue Menschen kennengelernt und ich habe verstanden: Reisen macht den Kopf frei. Das war ein Erlebnis, das ich nicht vergesse.", "quiz": [ { "q": "Wie war die Reise?", "choices": ["spannend", "langweilig", "kurz und ruhig"], "a": "spannend" }, { "q": "Wie fühlte sich die Person am Ende?", "choices": ["zufrieden und müde", "wütend", "krank"], "a": "zufrieden und müde" } ] },
+        { "id": 4, "title": "Gestern (klein)", "repeat": 2, "text": "Gestern habe ich Fotos von einem schönen Ort gemacht und später habe ich mit Freunden darüber gesprochen. Danach habe ich mich erinnert, wie ich früher gereist bin. Ich war glücklich, weil ich diese Erinnerungen habe. Am Abend habe ich kurz geplant, wohin ich als Nächstes reisen möchte.", "quiz": [ { "q": "Was hat die Person gestern gemacht?", "choices": ["Fotos gemacht", "umgezogen", "gekocht"], "a": "Fotos gemacht" }, { "q": "Wie hat sich die Person gefühlt?", "choices": ["glücklich", "langweilig", "pünktlich"], "a": "glücklich" } ] },
+        {
+          "id": 5,
+          "title": "Mini-Dialog (Erfahrungen)",
+          "repeat": 2,
+          "text": "Hast du schon einmal ein Museum besucht? Ja, ich habe schon ein Museum besucht. War es interessant? Ja, sehr interessant. Hast du noch nie ein neues Land besucht? Doch, ich habe schon einige Länder gesehen. Reisen ist spannend, aber manchmal bin ich müde danach.",
+          "quiz": [
+            { "q": "Was hat die Person schon gemacht?", "choices": ["ein Museum besucht", "nie gereist", "immer gearbeitet"], "a": "ein Museum besucht" },
+            { "q": "Wie ist Reisen?", "choices": ["spannend", "langweilig", "kaputt"], "a": "spannend" }
+          ]
+        }
+      ]
+    },
+    "output": { "prompt": "Write 6–8 sentences about your experiences. Use 'schon' at least once and 'noch nie' at least once. Use 2 vocab words from today." },
+    "outputRules": { "minSentences": 6, "mustIncludeAny": ["schon", "noch nie"], "mustIncludeAllPatterns": ["\\bhabe\\b"], "mustUseVocabAtLeast": 2 },
+    "passRules": { "vocabMinCorrect": 0.8, "grammarMinCorrect": 0.7, "listeningMinCorrect": 0.67, "minOutputChars": 120 }
+  },
+
+  {
+    "day": 5,
+    "topic": "Habits & word order (A2)",
+    "vocab_list": [
+      { "de": "jeden Tag", "en": "every day" },
+      { "de": "jede Woche", "en": "every week" },
+      { "de": "immer", "en": "always" },
+      { "de": "oft", "en": "often" },
+      { "de": "manchmal", "en": "sometimes" },
+      { "de": "selten", "en": "rarely" },
+      { "de": "nie", "en": "never" },
+      { "de": "regelmäßig", "en": "regularly" },
+      { "de": "normalerweise", "en": "normally" },
+      { "de": "meistens", "en": "mostly" },
+      { "de": "früh", "en": "early" },
+      { "de": "spät", "en": "late" },
+      { "de": "pünktlich", "en": "on time" },
+      { "de": "der Alltag", "en": "everyday life" },
+      { "de": "die Gewohnheit", "en": "habit" },
+      { "de": "der Plan", "en": "plan" },
+      { "de": "der Termin", "en": "appointment" },
+      { "de": "planen", "en": "to plan" },
+      { "de": "ändern", "en": "to change" },
+      { "de": "versuchen", "en": "to try" },
+      { "de": "vergessen", "en": "to forget" },
+      { "de": "sich erinnern", "en": "to remember" },
+      { "de": "Zeit haben", "en": "to have time" },
+      { "de": "keine Zeit haben", "en": "to have no time" },
+      { "de": "Stress haben", "en": "to be stressed" },
+      { "de": "entspannen", "en": "to relax" },
+      { "de": "Freizeit", "en": "free time" },
+      { "de": "Arbeit", "en": "work" },
+      { "de": "zuerst", "en": "first" },
+      { "de": "danach", "en": "after that" }
+    ],
+    "vocab_quiz": [
+      { "word": "meistens", "choices": ["mostly", "never", "tomorrow", "late"], "answer": "mostly" },
+      { "word": "Gewohnheit", "choices": ["habit", "city", "journey", "museum"], "answer": "habit" },
+      { "word": "Termin", "choices": ["appointment", "vacation", "alarm clock", "week"], "answer": "appointment" },
+      { "word": "keine Zeit haben", "choices": ["to have no time", "to be happy", "to be early", "to be alone"], "answer": "to have no time" },
+      { "word": "Stress haben", "choices": ["to be stressed", "to relax", "to invite", "to move"], "answer": "to be stressed" },
+      { "word": "zuerst", "choices": ["first", "after that", "already", "ago"], "answer": "first" },
+      { "word": "ändern", "choices": ["to change", "to remember", "to travel", "to cook"], "answer": "to change" }
+    ],
+    "grammar": {
+      "title": "Word order: time words + frequency + main clause (A2)",
+      "rules": [
+        "In main clauses the verb is in position 2 (V2 rule).",
+        "Time words can be first: Heute lerne ich Deutsch.",
+        "Frequency adverbs usually come after the verb: Ich lerne oft Deutsch.",
+        "Order tip: Time → Manner → Place (when you have many parts).",
+        "Use Präsens for habits; use Perfekt for changed past habits (Früher habe ich...)."
+      ],
+      "examples": [
+        "Heute lerne ich oft Deutsch.",
+        "Zuerst arbeite ich, danach habe ich Freizeit.",
+        "Normalerweise bin ich pünktlich."
+      ],
+      "quiz": [
+        { "q": "___ lerne ich Deutsch.", "choices": ["Heute", "Deutsch heute"], "a": "Heute" },
+        { "q": "Ich ___ oft Deutsch.", "choices": ["lerne", "Deutsch lerne"], "a": "lerne" },
+        { "q": "Zuerst ___ ich, danach entspanne ich.", "choices": ["arbeite", "Arbeit"], "a": "arbeite" }
+      ]
+    },
+    "listening": {
+      "level": "A2",
+      "totalMinutes": 10,
+      "segments": [
+        { "id": 1, "title": "Alltag", "repeat": 2, "text": "Mein Alltag ist oft ähnlich. Normalerweise stehe ich früh auf und plane den Tag. Zuerst mache ich wichtige Aufgaben, danach kümmere ich mich um kleine Dinge. Ich versuche pünktlich zu sein, weil Termine wichtig sind. Wenn ich einen Plan habe, fühle ich weniger Stress.", "quiz": [ { "q": "Warum sind Termine wichtig?", "choices": ["weil sie wichtig sind für den Plan", "weil sie immer langweilig sind", "weil sie nur am Wochenende sind"], "a": "weil sie wichtig sind für den Plan" }, { "q": "Was macht die Person zuerst?", "choices": ["wichtige Aufgaben", "ins Kino gehen", "umziehen"], "a": "wichtige Aufgaben" } ] },
+        { "id": 2, "title": "Häufigkeit", "repeat": 2, "text": "Ich lerne meistens am Abend, aber manchmal auch am Nachmittag. Oft habe ich Zeit, doch nicht immer. Wenn ich keine Zeit habe, lerne ich nur kurz. Selten vergesse ich komplett zu lernen, aber es passiert. Ich will regelmäßig bleiben, auch wenn der Tag stressig ist.", "quiz": [ { "q": "Wann lernt die Person meistens?", "choices": ["am Abend", "nur morgens", "nie"], "a": "am Abend" }, { "q": "Was passiert selten?", "choices": ["komplett vergessen zu lernen", "pünktlich sein", "Zeit haben"], "a": "komplett vergessen zu lernen" } ] },
+        { "id": 3, "title": "Plan ändern", "repeat": 2, "text": "Manchmal muss ich meinen Plan ändern. Wenn ein neuer Termin kommt, verschiebe ich andere Dinge. Dann habe ich vielleicht weniger Freizeit, aber ich versuche ruhig zu bleiben. Ich erinnere mich daran: Ein guter Plan ist flexibel. Danach fühle ich mich wieder besser.", "quiz": [ { "q": "Warum ändert die Person den Plan?", "choices": ["weil ein neuer Termin kommt", "weil sie nie arbeitet", "weil sie immer schläft"], "a": "weil ein neuer Termin kommt" }, { "q": "Was ist ein guter Plan?", "choices": ["flexibel", "immer gleich", "niemals pünktlich"], "a": "flexibel" } ] },
+        { "id": 4, "title": "Entspannen", "repeat": 2, "text": "Nach der Arbeit brauche ich Entspannung. Ich habe oft Stress, aber ich kann mich auch entspannen. Manchmal gehe ich spazieren oder höre Musik. Danach habe ich wieder Energie. So kann ich jeden Tag weiter machen, ohne zu viel Druck.", "quiz": [ { "q": "Was macht die Person zur Entspannung?", "choices": ["spazieren gehen oder Musik hören", "umziehen", "nur arbeiten"], "a": "spazieren gehen oder Musik hören" }, { "q": "Was hat die Person danach?", "choices": ["mehr Energie", "weniger Zeit", "keinen Plan"], "a": "mehr Energie" } ] },
+        {
+          "id": 5,
+          "title": "Mini-Wiederholung (Wortstellung)",
+          "repeat": 2,
+          "text": "Heute lerne ich Deutsch. Normalerweise lerne ich abends. Oft habe ich Zeit, aber nicht immer. Zuerst arbeite ich, danach entspanne ich mich. Wenn ich Stress habe, gehe ich spazieren.",
+          "quiz": [
+            { "q": "Wann lernt die Person normalerweise?", "choices": ["abends", "nie", "morgen"], "a": "abends" },
+            { "q": "Was kommt nach 'zuerst'?", "choices": ["arbeite ich", "Zeit habe ich", "Deutsch lerne"], "a": "arbeite ich" }
+          ]
+        }
+      ]
+    },
+    "output": { "prompt": "Write 6–8 sentences about your habits. Start with a time word (Heute/Normalerweise). Use at least 2 frequency words (oft, meistens, manchmal, selten, nie) and 2 vocab words." },
+    "outputRules": { "minSentences": 6, "mustIncludeAny": ["oft", "meistens", "manchmal", "selten", "nie", "normalerweise", "heute"], "mustIncludeAllPatterns": [], "mustUseVocabAtLeast": 2 },
+    "passRules": { "vocabMinCorrect": 0.8, "grammarMinCorrect": 0.7, "listeningMinCorrect": 0.67, "minOutputChars": 120 }
+  },
+
+ {
+    "day": 6,
+    "topic": "A2 — Food & ordering (Bestellen im Restaurant)",
+    "vocab_list": [
+      { "de": "das Restaurant", "en": "restaurant" },
+      { "de": "das Café", "en": "café" },
+      { "de": "die Speisekarte", "en": "menu" },
+      { "de": "bestellen", "en": "to order" },
+      { "de": "zahlen", "en": "to pay" },
+      { "de": "die Rechnung", "en": "bill" },
+      { "de": "das Trinkgeld", "en": "tip" },
+      { "de": "der Kellner", "en": "waiter" },
+      { "de": "die Kellnerin", "en": "waitress" },
+      { "de": "das Gericht", "en": "dish" },
+      { "de": "die Suppe", "en": "soup" },
+      { "de": "der Salat", "en": "salad" },
+      { "de": "das Fleisch", "en": "meat" },
+      { "de": "der Fisch", "en": "fish" },
+      { "de": "vegetarisch", "en": "vegetarian" },
+      { "de": "vegan", "en": "vegan" },
+      { "de": "scharf", "en": "spicy" },
+      { "de": "süß", "en": "sweet" },
+      { "de": "salzig", "en": "salty" },
+      { "de": "lecker", "en": "tasty" },
+      { "de": "das Getränk", "en": "drink" },
+      { "de": "das Wasser", "en": "water" },
+      { "de": "der Saft", "en": "juice" },
+      { "de": "der Kaffee", "en": "coffee" },
+      { "de": "der Tee", "en": "tea" },
+      { "de": "hungrig", "en": "hungry" },
+      { "de": "durstig", "en": "thirsty" },
+      { "de": "bitte", "en": "please" },
+      { "de": "noch einmal", "en": "one more time / again" },
+      { "de": "sonst noch etwas?", "en": "anything else?" }
+    ],
+    "vocab_quiz": [
+      { "word": "bestellen", "choices": ["to order", "to pay", "to cook", "to invite"], "answer": "to order" },
+      { "word": "die Rechnung", "choices": ["bill", "reservation", "menu", "kitchen"], "answer": "bill" },
+      { "word": "hungrig", "choices": ["hungry", "thirsty", "tired", "late"], "answer": "hungry" },
+      { "word": "durstig", "choices": ["thirsty", "hungry", "sweet", "salty"], "answer": "thirsty" },
+      { "word": "lecker", "choices": ["tasty", "cheap", "dirty", "loud"], "answer": "tasty" },
+      { "word": "scharf", "choices": ["spicy", "sweet", "cold", "boring"], "answer": "spicy" },
+      { "word": "sonst noch etwas?", "choices": ["anything else?", "where is it?", "how much is it?", "good luck"], "answer": "anything else?" }
+    ],
+    "grammar": {
+      "title": "Höflich bestellen: 'Ich hätte gern…' + 'Könnte ich…?'",
+      "rules": [
+        "Polite ordering: Ich hätte gern + Akkusativ.",
+        "Asking politely: Könnte ich bitte … bekommen?",
+        "Use 'bitte' and 'danke' for politeness.",
+        "When you want the bill: Könnten wir bitte zahlen? / Die Rechnung, bitte.",
+        "Word order in questions: Könnte ich … ? / Haben Sie … ?"
+      ],
+      "examples": [
+        "Ich hätte gern einen Salat, bitte.",
+        "Könnte ich ein Wasser bekommen?",
+        "Die Rechnung, bitte.",
+        "Haben Sie etwas Vegetarisches?"
+      ],
+      "quiz": [
+        { "q": "___ ich bitte ein Wasser bekommen?", "choices": ["Könnte", "Seit"], "a": "Könnte" },
+        { "q": "Ich ___ gern einen Kaffee.", "choices": ["hätte", "bin"], "a": "hätte" },
+        { "q": "___ wir bitte zahlen?", "choices": ["Könnten", "Haben"], "a": "Könnten" }
+      ]
+    },
+    "listening": {
+      "level": "A2",
+      "totalMinutes": 10,
+      "segments": [
+        {
+          "id": 1,
+          "title": "Im Café",
+          "repeat": 2,
+          "text": "Ich bin heute im Café, weil ich hungrig und durstig bin. Die Kellnerin bringt die Speisekarte. Ich schaue kurz und entscheide mich schnell. Ich hätte gern einen Kaffee und ein Stück Kuchen. Die Kellnerin fragt: Sonst noch etwas? Ich sage: Nein, danke.",
+          "quiz": [
+            { "q": "Warum ist die Person im Café?", "choices": ["hungrig und durstig", "krank", "zu spät"], "a": "hungrig und durstig" },
+            { "q": "Was bestellt die Person?", "choices": ["Kaffee und Kuchen", "Salat und Fisch", "Tee und Suppe"], "a": "Kaffee und Kuchen" }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Im Restaurant",
+          "repeat": 2,
+          "text": "Am Abend gehe ich in ein Restaurant. Der Kellner kommt und fragt freundlich. Ich hätte gern eine Suppe als Vorspeise und danach ein vegetarisches Gericht. Ich mag es nicht zu scharf. Der Kellner empfiehlt einen Salat und ein Nudelgericht. Das klingt lecker.",
+          "quiz": [
+            { "q": "Was möchte die Person als Vorspeise?", "choices": ["eine Suppe", "einen Saft", "einen Fisch"], "a": "eine Suppe" },
+            { "q": "Was mag die Person nicht?", "choices": ["zu scharf", "zu süß", "zu salzig"], "a": "zu scharf" }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Getränke",
+          "repeat": 2,
+          "text": "Zum Essen bestelle ich oft Wasser oder Saft. Manchmal trinke ich Tee, wenn es kalt ist. Heute möchte ich ein Wasser ohne Kohlensäure. Ich frage: Könnte ich bitte ein stilles Wasser bekommen? Der Kellner bringt es schnell. Danach fühle ich mich besser.",
+          "quiz": [
+            { "q": "Was möchte die Person heute trinken?", "choices": ["stilles Wasser", "Kaffee", "Milch"], "a": "stilles Wasser" },
+            { "q": "Wann trinkt die Person manchmal Tee?", "choices": ["wenn es kalt ist", "wenn es heiß ist", "wenn sie müde ist"], "a": "wenn es kalt ist" }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Zahlen",
+          "repeat": 2,
+          "text": "Am Ende möchte ich zahlen. Ich rufe den Kellner und sage: Die Rechnung, bitte. Er bringt die Rechnung und ich bezahle. Wenn der Service gut war, gebe ich etwas Trinkgeld. Dann sage ich: Danke, es war sehr lecker. Der Kellner lächelt.",
+          "quiz": [
+            { "q": "Was sagt die Person, wenn sie zahlen will?", "choices": ["Die Rechnung, bitte", "Ich bin müde", "Wo ist der Bus?"], "a": "Die Rechnung, bitte" },
+            { "q": "Wann gibt die Person Trinkgeld?", "choices": ["wenn der Service gut war", "wenn das Essen kalt war", "wenn sie keine Zeit hat"], "a": "wenn der Service gut war" }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Mini-Dialog: Bestellung",
+          "repeat": 2,
+          "text": "Guten Tag. Was möchten Sie? Ich hätte gern einen Salat und ein Wasser, bitte. Möchten Sie etwas Süßes? Nein, danke. Sonst noch etwas? Nein. Könnten wir später zahlen? Ja, natürlich.",
+          "quiz": [
+            { "q": "Was bestellt die Person?", "choices": ["Salat und Wasser", "Fisch und Saft", "Suppe und Tee"], "a": "Salat und Wasser" },
+            { "q": "Was sagt der Kellner?", "choices": ["Sonst noch etwas?", "Seit wann?", "Wie spät?"], "a": "Sonst noch etwas?" }
+          ]
+        }
+      ]
+    },
+    "output": { "prompt": "Write a short restaurant dialogue (6–8 sentences). Use: 'Ich hätte gern…', 'Könnte ich bitte…?', and 'Die Rechnung, bitte.' Use at least 2 vocab words." },
+    "outputRules": {
+      "minSentences": 6,
+      "mustIncludeAny": ["Ich hätte gern", "Könnte ich", "Die Rechnung"],
+      "mustIncludeAllPatterns": [],
+      "mustUseVocabAtLeast": 2
+    },
+    "passRules": { "vocabMinCorrect": 0.8, "grammarMinCorrect": 0.7, "listeningMinCorrect": 0.67, "minOutputChars": 120 }
+  },
+
+  {
+    "day": 7,
+    "topic": "A2 — Shopping & sizes (Kleidung kaufen)",
+    "vocab_list": [
+      { "de": "einkaufen", "en": "to shop" },
+      { "de": "das Geschäft", "en": "shop/store" },
+      { "de": "die Kleidung", "en": "clothes" },
+      { "de": "die Hose", "en": "pants" },
+      { "de": "das T-Shirt", "en": "t-shirt" },
+      { "de": "der Pullover", "en": "sweater" },
+      { "de": "die Jacke", "en": "jacket" },
+      { "de": "die Schuhe", "en": "shoes" },
+      { "de": "die Größe", "en": "size" },
+      { "de": "anprobieren", "en": "to try on" },
+      { "de": "passen", "en": "to fit" },
+      { "de": "zu groß", "en": "too big" },
+      { "de": "zu klein", "en": "too small" },
+      { "de": "bequem", "en": "comfortable" },
+      { "de": "eng", "en": "tight" },
+      { "de": "weit", "en": "loose" },
+      { "de": "die Farbe", "en": "color" },
+      { "de": "schwarz", "en": "black" },
+      { "de": "weiß", "en": "white" },
+      { "de": "blau", "en": "blue" },
+      { "de": "rot", "en": "red" },
+      { "de": "billig", "en": "cheap" },
+      { "de": "teuer", "en": "expensive" },
+      { "de": "reduziert", "en": "discounted" },
+      { "de": "der Preis", "en": "price" },
+      { "de": "die Kasse", "en": "checkout" },
+      { "de": "umtauschen", "en": "to exchange" },
+      { "de": "die Quittung", "en": "receipt" },
+      { "de": "bar", "en": "cash" },
+      { "de": "mit Karte", "en": "by card" }
+    ],
+    "vocab_quiz": [
+      { "word": "anprobieren", "choices": ["to try on", "to pay", "to cook", "to travel"], "answer": "to try on" },
+      { "word": "passen", "choices": ["to fit", "to start", "to end", "to invite"], "answer": "to fit" },
+      { "word": "zu klein", "choices": ["too small", "too big", "comfortable", "cheap"], "answer": "too small" },
+      { "word": "reduziert", "choices": ["discounted", "expensive", "dirty", "fast"], "answer": "discounted" },
+      { "word": "umtauschen", "choices": ["to exchange", "to remember", "to meet", "to order"], "answer": "to exchange" },
+      { "word": "die Quittung", "choices": ["receipt", "menu", "ticket", "bill"], "answer": "receipt" },
+      { "word": "mit Karte", "choices": ["by card", "by bus", "by phone", "by train"], "answer": "by card" }
+    ],
+    "grammar": {
+      "title": "Possessive + Adjective endings (basic): mein/meine + ein/eine",
+      "rules": [
+        "Possessive: mein Pullover, meine Jacke, meine Schuhe.",
+        "ein/eine depends on gender: ein Pullover, eine Hose, ein T-Shirt.",
+        "Adjective before noun: ein schwarzer Pullover / eine blaue Hose (simple, A2).",
+        "Talking about fit: Es ist zu groß/zu klein. Es passt.",
+        "Polite questions: Haben Sie das in Größe M? Kann ich das anprobieren?"
+      ],
+      "examples": [
+        "Ich suche eine blaue Jacke.",
+        "Haben Sie das in Größe 38?",
+        "Die Hose ist zu klein, aber der Pullover ist bequem."
+      ],
+      "quiz": [
+        { "q": "Ich suche ___ Jacke.", "choices": ["eine", "ein"], "a": "eine" },
+        { "q": "Haben Sie das in ___ Größe M?", "choices": ["der", "der/die"], "a": "der/die" },
+        { "q": "Der Pullover ist ___.", "choices": ["bequem", "bequeme"], "a": "bequem" }
+      ]
+    },
+    "listening": {
+      "level": "A2",
+      "totalMinutes": 10,
+      "segments": [
+        {
+          "id": 1,
+          "title": "Im Geschäft",
+          "repeat": 2,
+          "text": "Heute gehe ich einkaufen, weil ich neue Kleidung brauche. Im Geschäft sehe ich viele T-Shirts und Hosen. Ich mag die Farbe blau, aber schwarz ist auch praktisch. Ich schaue zuerst auf den Preis. Manche Sachen sind reduziert, das ist gut.",
+          "quiz": [
+            { "q": "Warum geht die Person einkaufen?", "choices": ["sie braucht neue Kleidung", "sie ist krank", "sie sucht ein Museum"], "a": "sie braucht neue Kleidung" },
+            { "q": "Welche Farbe mag die Person?", "choices": ["blau", "grün", "gelb"], "a": "blau" }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Größe und Anprobieren",
+          "repeat": 2,
+          "text": "Ich finde eine Hose, aber ich bin nicht sicher mit der Größe. Ich frage: Haben Sie die Hose in Größe 38? Die Verkäuferin sagt ja. Dann gehe ich in die Kabine und probiere sie an. Die Hose ist zu klein, sie ist zu eng. Ich nehme eine größere Größe.",
+          "quiz": [
+            { "q": "Was fragt die Person?", "choices": ["Haben Sie die Hose in Größe 38?", "Die Rechnung, bitte", "Seit wann?"], "a": "Haben Sie die Hose in Größe 38?" },
+            { "q": "Wie ist die Hose?", "choices": ["zu klein/zu eng", "zu groß", "bequem"], "a": "zu klein/zu eng" }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Farben",
+          "repeat": 2,
+          "text": "Ich probiere auch ein T-Shirt an. Das rote T-Shirt ist schön, aber es passt nicht gut. Das weiße ist zu weit. Am Ende nehme ich ein schwarzes T-Shirt, weil es zu vielen Sachen passt. Es ist bequem und nicht teuer.",
+          "quiz": [
+            { "q": "Welche Farbe nimmt die Person am Ende?", "choices": ["schwarz", "rot", "weiß"], "a": "schwarz" },
+            { "q": "Warum nimmt sie es?", "choices": ["es passt zu vielen Sachen", "es ist sehr eng", "es ist zu groß"], "a": "es passt zu vielen Sachen" }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Bezahlen",
+          "repeat": 2,
+          "text": "An der Kasse bezahle ich. Ich kann bar oder mit Karte zahlen. Heute zahle ich mit Karte, das geht schnell. Ich bekomme eine Quittung. Die Verkäuferin sagt: Wenn etwas nicht passt, können Sie es umtauschen. Das ist praktisch.",
+          "quiz": [
+            { "q": "Wie zahlt die Person heute?", "choices": ["mit Karte", "bar", "gar nicht"], "a": "mit Karte" },
+            { "q": "Was bekommt die Person?", "choices": ["eine Quittung", "eine Speisekarte", "einen Termin"], "a": "eine Quittung" }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Mini-Dialog: Umtauschen",
+          "repeat": 2,
+          "text": "Entschuldigung, ich möchte diese Jacke umtauschen. Sie ist zu klein. Haben Sie sie in einer größeren Größe? Ja, natürlich. Hier ist die Quittung. Danke. Möchten Sie bar oder mit Karte zahlen? Mit Karte, bitte.",
+          "quiz": [
+            { "q": "Was möchte die Person machen?", "choices": ["umtauschen", "bestellen", "reisen"], "a": "umtauschen" },
+            { "q": "Warum?", "choices": ["zu klein", "zu teuer", "zu salzig"], "a": "zu klein" }
+          ]
+        }
+      ]
+    },
+    "output": { "prompt": "Write 6–8 sentences about buying clothes. Include: size, trying on, and payment (bar/mit Karte). Use at least 2 vocab words." },
+    "outputRules": {
+      "minSentences": 6,
+      "mustIncludeAny": ["Größe", "anprobieren", "mit Karte", "bar"],
+      "mustIncludeAllPatterns": [],
+      "mustUseVocabAtLeast": 2
+    },
+    "passRules": { "vocabMinCorrect": 0.8, "grammarMinCorrect": 0.7, "listeningMinCorrect": 0.67, "minOutputChars": 120 }
+  },
+
+  {
+    "day": 8,
+    "topic": "A2 — Health & at the doctor (Beim Arzt)",
+    "vocab_list": [
+      { "de": "der Arzt", "en": "doctor" },
+      { "de": "die Ärztin", "en": "female doctor" },
+      { "de": "die Praxis", "en": "clinic/practice" },
+      { "de": "der Termin", "en": "appointment" },
+      { "de": "die Krankenkasse", "en": "health insurance" },
+      { "de": "die Versichertenkarte", "en": "insurance card" },
+      { "de": "krank", "en": "sick" },
+      { "de": "gesund", "en": "healthy" },
+      { "de": "die Schmerzen", "en": "pain" },
+      { "de": "weh tun", "en": "to hurt" },
+      { "de": "das Fieber", "en": "fever" },
+      { "de": "der Husten", "en": "cough" },
+      { "de": "die Erkältung", "en": "cold" },
+      { "de": "der Hals", "en": "throat" },
+      { "de": "der Kopf", "en": "head" },
+      { "de": "der Bauch", "en": "stomach/belly" },
+      { "de": "der Rücken", "en": "back" },
+      { "de": "die Tablette", "en": "tablet/pill" },
+      { "de": "das Medikament", "en": "medicine" },
+      { "de": "das Rezept", "en": "prescription" },
+      { "de": "die Apotheke", "en": "pharmacy" },
+      { "de": "messen", "en": "to measure" },
+      { "de": "die Temperatur", "en": "temperature" },
+      { "de": "untersuchen", "en": "to examine" },
+      { "de": "warten", "en": "to wait" },
+      { "de": "die Wartezeit", "en": "waiting time" },
+      { "de": "krank schreiben", "en": "to give sick note" },
+      { "de": "die Krankschreibung", "en": "sick note" },
+      { "de": "besser", "en": "better" },
+      { "de": "schlimmer", "en": "worse" }
+    ],
+    "vocab_quiz": [
+      { "word": "weh tun", "choices": ["to hurt", "to order", "to pay", "to relax"], "answer": "to hurt" },
+      { "word": "die Erkältung", "choices": ["cold", "vacation", "receipt", "menu"], "answer": "cold" },
+      { "word": "die Apotheke", "choices": ["pharmacy", "station", "office", "kitchen"], "answer": "pharmacy" },
+      { "word": "das Rezept", "choices": ["prescription", "bill", "ticket", "plan"], "answer": "prescription" },
+      { "word": "untersuchen", "choices": ["to examine", "to travel", "to invite", "to wash"], "answer": "to examine" },
+      { "word": "die Wartezeit", "choices": ["waiting time", "free time", "size", "duration"], "answer": "waiting time" },
+      { "word": "krank schreiben", "choices": ["to give sick note", "to cook", "to try on", "to jog"], "answer": "to give sick note" }
+    ],
+    "grammar": {
+      "title": "Körper + 'mir tut ... weh' / 'Ich habe ...' (A2)",
+      "rules": [
+        "Pain: Mir tut der Kopf weh / Mir tun die Augen weh.",
+        "Alternative: Ich habe Kopfschmerzen / Bauchschmerzen.",
+        "Ask: Was fehlt Ihnen? / Wo tut es weh?",
+        "Modal for advice: Sie sollten ... / Sie können ...",
+        "Past for symptoms: Seit wann haben Sie das? (seit/vor)"
+      ],
+      "examples": [
+        "Mir tut der Hals weh.",
+        "Ich habe Fieber und Husten.",
+        "Seit wann haben Sie die Schmerzen?",
+        "Sie sollten viel trinken und sich ausruhen."
+      ],
+      "quiz": [
+        { "q": "___ tut der Kopf weh.", "choices": ["Mir", "Ich"], "a": "Mir" },
+        { "q": "Ich habe ___.", "choices": ["Fieber", "fieber"], "a": "Fieber" },
+        { "q": "Sie ___ viel trinken.", "choices": ["sollten", "haben"], "a": "sollten" }
+      ]
+    },
+    "listening": {
+      "level": "A2",
+      "totalMinutes": 10,
+      "segments": [
+        {
+          "id": 1,
+          "title": "Termin",
+          "repeat": 2,
+          "text": "Ich bin krank und brauche einen Termin bei der Ärztin. Ich rufe in der Praxis an und sage: Ich habe seit zwei Tagen Husten und Fieber. Die Praxis gibt mir einen Termin am Nachmittag. Ich nehme meine Versichertenkarte mit und gehe hin.",
+          "quiz": [
+            { "q": "Welche Symptome hat die Person?", "choices": ["Husten und Fieber", "Durst und Hunger", "zu groß und zu klein"], "a": "Husten und Fieber" },
+            { "q": "Was nimmt die Person mit?", "choices": ["Versichertenkarte", "Speisekarte", "Quittung"], "a": "Versichertenkarte" }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Warten",
+          "repeat": 2,
+          "text": "In der Praxis muss ich warten. Die Wartezeit ist heute lang. Nach zwanzig Minuten ruft mich die Ärztin. Sie fragt: Was fehlt Ihnen? Ich sage: Mir tut der Hals weh und ich habe Kopfschmerzen. Dann misst sie meine Temperatur.",
+          "quiz": [
+            { "q": "Wie ist die Wartezeit?", "choices": ["lang", "kurz", "null"], "a": "lang" },
+            { "q": "Was misst die Ärztin?", "choices": ["die Temperatur", "die Größe", "den Preis"], "a": "die Temperatur" }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Untersuchung",
+          "repeat": 2,
+          "text": "Die Ärztin untersucht mich. Sie hört meinen Rücken ab und schaut in den Hals. Sie sagt: Es ist wahrscheinlich eine Erkältung. Sie empfiehlt, viel zu trinken und sich auszuruhen. Wenn es schlimmer wird, soll ich wiederkommen.",
+          "quiz": [
+            { "q": "Was ist es wahrscheinlich?", "choices": ["eine Erkältung", "ein Urlaub", "ein Hobby"], "a": "eine Erkältung" },
+            { "q": "Was empfiehlt die Ärztin?", "choices": ["viel trinken und ausruhen", "im Kino bleiben", "mehr arbeiten"], "a": "viel trinken und ausruhen" }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Rezept & Apotheke",
+          "repeat": 2,
+          "text": "Ich bekomme ein Rezept für ein Medikament. Die Ärztin gibt mir auch eine Krankschreibung für zwei Tage. Danach gehe ich in die Apotheke und hole das Medikament. Zu Hause nehme ich eine Tablette und trinke Tee. Am Abend geht es mir etwas besser.",
+          "quiz": [
+            { "q": "Was bekommt die Person vom Arzt?", "choices": ["ein Rezept", "eine Speisekarte", "eine Quittung"], "a": "ein Rezept" },
+            { "q": "Wohin geht die Person danach?", "choices": ["in die Apotheke", "ins Restaurant", "in die Schule"], "a": "in die Apotheke" }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Mini-Dialog: Schmerzen",
+          "repeat": 2,
+          "text": "Guten Tag. Was fehlt Ihnen? Mir tut der Rücken weh und ich habe Kopfschmerzen. Seit wann haben Sie das? Seit gestern. Ich untersuche Sie. Sie sollten sich ausruhen und viel trinken.",
+          "quiz": [
+            { "q": "Was tut weh?", "choices": ["der Rücken", "die Schuhe", "das T-Shirt"], "a": "der Rücken" },
+            { "q": "Seit wann?", "choices": ["seit gestern", "vor einem Jahr", "morgen"], "a": "seit gestern" }
+          ]
+        }
+      ]
+    },
+    "output": { "prompt": "Write 6–8 sentences about being sick and visiting a doctor. Use: 'Mir tut … weh' and at least 2 vocab words (z.B. Termin, Rezept, Apotheke)." },
+    "outputRules": {
+      "minSentences": 6,
+      "mustIncludeAny": ["Mir tut", "weh", "Arzt", "Ärztin"],
+      "mustIncludeAllPatterns": [],
+      "mustUseVocabAtLeast": 2
+    },
+    "passRules": { "vocabMinCorrect": 0.8, "grammarMinCorrect": 0.7, "listeningMinCorrect": 0.67, "minOutputChars": 120 }
+  },
+
+  {
+    "day": 9,
+    "topic": "A2 — Directions & transport (Wegbeschreibung)",
+    "vocab_list": [
+      { "de": "der Weg", "en": "way/path" },
+      { "de": "die Richtung", "en": "direction" },
+      { "de": "links", "en": "left" },
+      { "de": "rechts", "en": "right" },
+      { "de": "geradeaus", "en": "straight ahead" },
+      { "de": "die Kreuzung", "en": "intersection" },
+      { "de": "die Ampel", "en": "traffic light" },
+      { "de": "die Ecke", "en": "corner" },
+      { "de": "die Straße", "en": "street" },
+      { "de": "überqueren", "en": "to cross" },
+      { "de": "abbiegen", "en": "to turn" },
+      { "de": "weitergehen", "en": "to continue walking" },
+      { "de": "bis", "en": "until" },
+      { "de": "gegenüber", "en": "opposite" },
+      { "de": "neben", "en": "next to" },
+      { "de": "zwischen", "en": "between" },
+      { "de": "hinter", "en": "behind" },
+      { "de": "vor", "en": "in front of" },
+      { "de": "die Haltestelle", "en": "stop (bus/tram)" },
+      { "de": "der Bahnhof", "en": "train station" },
+      { "de": "die U-Bahn", "en": "subway" },
+      { "de": "die Straßenbahn", "en": "tram" },
+      { "de": "der Bus", "en": "bus" },
+      { "de": "einsteigen", "en": "to get in" },
+      { "de": "aussteigen", "en": "to get out" },
+      { "de": "umsteigen", "en": "to change (transport)" },
+      { "de": "die Fahrkarte", "en": "ticket" },
+      { "de": "der Fahrplan", "en": "timetable" },
+      { "de": "die Verspätung", "en": "delay" }
+    ],
+    "vocab_quiz": [
+      { "word": "geradeaus", "choices": ["straight ahead", "left", "right", "behind"], "answer": "straight ahead" },
+      { "word": "abbiegen", "choices": ["to turn", "to cross", "to pay", "to order"], "answer": "to turn" },
+      { "word": "überqueren", "choices": ["to cross", "to try on", "to cook", "to examine"], "answer": "to cross" },
+      { "word": "umsteigen", "choices": ["to change transport", "to invite", "to relax", "to remember"], "answer": "to change transport" },
+      { "word": "die Haltestelle", "choices": ["stop", "bill", "size", "fever"], "answer": "stop" },
+      { "word": "die Fahrkarte", "choices": ["ticket", "menu", "receipt", "prescription"], "answer": "ticket" },
+      { "word": "die Verspätung", "choices": ["delay", "vacation", "habit", "cough"], "answer": "delay" }
+    ],
+    "grammar": {
+      "title": "Wegbeschreibung: Imperativ + Präpositionen (A2)",
+      "rules": [
+        "Imperative (du): Geh! Nimm! Bieg ab!",
+        "Polite imperative (Sie): Gehen Sie! Nehmen Sie!",
+        "Use prepositions: an der Ampel, an der Ecke, über die Straße.",
+        "Use 'bis' for stopping point: Gehen Sie bis zur Kreuzung.",
+        "Common pattern: Gehen Sie geradeaus, dann biegen Sie links ab."
+      ],
+      "examples": [
+        "Gehen Sie geradeaus bis zur Ampel.",
+        "Dann biegen Sie rechts ab.",
+        "Die Haltestelle ist gegenüber der Bank."
+      ],
+      "quiz": [
+        { "q": "___ Sie bis zur Kreuzung.", "choices": ["Gehen", "Geht"], "a": "Gehen" },
+        { "q": "Dann ___ Sie links ab.", "choices": ["biegen", "bieg"], "a": "biegen" },
+        { "q": "Die Apotheke ist ___ der Bank.", "choices": ["neben", "seit"], "a": "neben" }
+      ]
+    },
+    "listening": {
+      "level": "A2",
+      "totalMinutes": 10,
+      "segments": [
+        {
+          "id": 1,
+          "title": "Zu Fuß",
+          "repeat": 2,
+          "text": "Entschuldigung, wo ist der Bahnhof? Gehen Sie geradeaus bis zur Ampel. Überqueren Sie die Straße und biegen Sie dann rechts ab. Gehen Sie weiter bis zur nächsten Kreuzung. Dort sehen Sie den Bahnhof auf der linken Seite.",
+          "quiz": [
+            { "q": "Wohin möchte die Person?", "choices": ["zum Bahnhof", "ins Restaurant", "zur Apotheke"], "a": "zum Bahnhof" },
+            { "q": "Was soll sie an der Ampel machen?", "choices": ["die Straße überqueren", "zahlen", "anprobieren"], "a": "die Straße überqueren" }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Mit dem Bus",
+          "repeat": 2,
+          "text": "Ich fahre mit dem Bus zur Arbeit. Ich steige an der Haltestelle 'Markt' ein und nach fünf Stationen steige ich aus. Manchmal gibt es Verspätung, dann muss ich länger warten. Wenn ich schnell sein will, schaue ich vorher in den Fahrplan.",
+          "quiz": [
+            { "q": "Wo steigt die Person ein?", "choices": ["an der Haltestelle 'Markt'", "im Bahnhof", "im Café"], "a": "an der Haltestelle 'Markt'" },
+            { "q": "Was passiert manchmal?", "choices": ["Verspätung", "Fieber", "Rabatt"], "a": "Verspätung" }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Umsteigen",
+          "repeat": 2,
+          "text": "Heute muss ich umsteigen. Zuerst nehme ich die Straßenbahn bis zum Zentrum. Dort steige ich aus und gehe zur U-Bahn. Dann steige ich ein und fahre zwei Stationen. Umsteigen ist manchmal stressig, aber so bin ich schneller.",
+          "quiz": [
+            { "q": "Was macht die Person heute?", "choices": ["umsteigen", "umtauschen", "untersuchen"], "a": "umsteigen" },
+            { "q": "Welche Verkehrsmittel benutzt sie?", "choices": ["Straßenbahn und U-Bahn", "Auto und Flugzeug", "Fahrrad und Taxi"], "a": "Straßenbahn und U-Bahn" }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Ticket",
+          "repeat": 2,
+          "text": "Für die Fahrt brauche ich eine Fahrkarte. Ich kaufe sie am Automaten. Dann steige ich ein und zeige das Ticket, wenn Kontrolle kommt. Wenn ich das Ticket vergesse, wird es teuer. Deshalb kontrolliere ich immer meine Tasche.",
+          "quiz": [
+            { "q": "Was braucht man für die Fahrt?", "choices": ["eine Fahrkarte", "ein Rezept", "eine Speisekarte"], "a": "eine Fahrkarte" },
+            { "q": "Was passiert ohne Ticket?", "choices": ["es wird teuer", "man wird gesund", "es passt nicht"], "a": "es wird teuer" }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Mini-Dialog: Weg",
+          "repeat": 2,
+          "text": "Entschuldigung, wie komme ich zur Haltestelle? Gehen Sie geradeaus bis zur Ecke. Dann biegen Sie links ab. Die Haltestelle ist gegenüber der Bäckerei. Danke! Gern geschehen.",
+          "quiz": [
+            { "q": "Wo ist die Haltestelle?", "choices": ["gegenüber der Bäckerei", "neben dem Museum", "hinter dem Bahnhof"], "a": "gegenüber der Bäckerei" },
+            { "q": "Was soll man zuerst machen?", "choices": ["geradeaus gehen", "zahlen", "umtauschen"], "a": "geradeaus gehen" }
+          ]
+        }
+      ]
+    },
+    "output": { "prompt": "Write 6–8 sentences giving directions to a place. Use: geradeaus, links/rechts, bis, and at least 2 vocab words (z.B. Ampel, Kreuzung, Haltestelle)." },
+    "outputRules": {
+      "minSentences": 6,
+      "mustIncludeAny": ["geradeaus", "links", "rechts", "bis"],
+      "mustIncludeAllPatterns": [],
+      "mustUseVocabAtLeast": 2
+    },
+    "passRules": { "vocabMinCorrect": 0.8, "grammarMinCorrect": 0.7, "listeningMinCorrect": 0.67, "minOutputChars": 120 }
+  },
+
+  {
+    "day": 10,
+    "topic": "A2 — Housing & problems (Wohnung & Reparatur)",
+    "vocab_list": [
+      { "de": "die Wohnung", "en": "apartment" },
+      { "de": "das Zimmer", "en": "room" },
+      { "de": "die Küche", "en": "kitchen" },
+      { "de": "das Bad", "en": "bathroom" },
+      { "de": "der Balkon", "en": "balcony" },
+      { "de": "die Miete", "en": "rent" },
+      { "de": "der Vermieter", "en": "landlord" },
+      { "de": "der Nachbar", "en": "neighbor" },
+      { "de": "die Heizung", "en": "heating" },
+      { "de": "kaputt", "en": "broken" },
+      { "de": "reparieren", "en": "to repair" },
+      { "de": "das Problem", "en": "problem" },
+      { "de": "der Lärm", "en": "noise" },
+      { "de": "laut", "en": "loud" },
+      { "de": "leise", "en": "quiet" },
+      { "de": "die Dusche", "en": "shower" },
+      { "de": "das Wasser", "en": "water" },
+      { "de": "warm", "en": "warm" },
+      { "de": "kalt", "en": "cold" },
+      { "de": "die Lampe", "en": "lamp" },
+      { "de": "das Licht", "en": "light" },
+      { "de": "funktionieren", "en": "to work/function" },
+      { "de": "ausfallen", "en": "to fail / stop working" },
+      { "de": "die Steckdose", "en": "power outlet" },
+      { "de": "der Schlüssel", "en": "key" },
+      { "de": "abschließen", "en": "to lock" },
+      { "de": "die Reparatur", "en": "repair" },
+      { "de": "so schnell wie möglich", "en": "as soon as possible" },
+      { "de": "dringend", "en": "urgent" },
+      { "de": "die Hausverwaltung", "en": "property management" }
+    ],
+    "vocab_quiz": [
+      { "word": "kaputt", "choices": ["broken", "cheap", "hungry", "left"], "answer": "broken" },
+      { "word": "reparieren", "choices": ["to repair", "to order", "to examine", "to try on"], "answer": "to repair" },
+      { "word": "die Heizung", "choices": ["heating", "ticket", "tip", "receipt"], "answer": "heating" },
+      { "word": "der Lärm", "choices": ["noise", "fever", "size", "direction"], "answer": "noise" },
+      { "word": "funktionieren", "choices": ["to work/function", "to hurt", "to change", "to meet"], "answer": "to work/function" },
+      { "word": "dringend", "choices": ["urgent", "rarely", "sweet", "opposite"], "answer": "urgent" },
+      { "word": "so schnell wie möglich", "choices": ["as soon as possible", "every day", "back then", "anything else?"], "answer": "as soon as possible" }
+    ],
+    "grammar": {
+      "title": "Probleme melden: 'Es gibt…' / 'Es funktioniert nicht' + Bitte",
+      "rules": [
+        "Describe a problem: Es gibt ein Problem mit ...",
+        "Also: Das Licht funktioniert nicht / Die Heizung ist kaputt.",
+        "Polite request: Könnten Sie bitte ...? / Können Sie das bitte reparieren?",
+        "Use 'so schnell wie möglich' for urgency politely.",
+        "Use Perfekt for what happened: Gestern ist das Licht ausgefallen."
+      ],
+      "examples": [
+        "Es gibt ein Problem mit der Heizung.",
+        "Das Licht funktioniert nicht.",
+        "Könnten Sie das bitte so schnell wie möglich reparieren?",
+        "Gestern ist die Heizung ausgefallen."
+      ],
+      "quiz": [
+        { "q": "Es ___ ein Problem mit der Dusche.", "choices": ["gibt", "hat"], "a": "gibt" },
+        { "q": "Das Licht ___ nicht.", "choices": ["funktioniert", "funktioniere"], "a": "funktioniert" },
+        { "q": "Könnten Sie das bitte ___?", "choices": ["reparieren", "repariert"], "a": "reparieren" }
+      ]
+    },
+    "listening": {
+      "level": "A2",
+      "totalMinutes": 10,
+      "segments": [
+        {
+          "id": 1,
+          "title": "Heizung kaputt",
+          "repeat": 2,
+          "text": "In meiner Wohnung gibt es ein Problem mit der Heizung. Heute ist es kalt, aber die Heizung funktioniert nicht. Ich bin frustriert, weil ich warmes Wasser brauche. Ich schreibe dem Vermieter eine Nachricht. Ich sage: Die Heizung ist kaputt, bitte helfen Sie.",
+          "quiz": [
+            { "q": "Was funktioniert nicht?", "choices": ["die Heizung", "die Speisekarte", "das Ticket"], "a": "die Heizung" },
+            { "q": "Wem schreibt die Person?", "choices": ["dem Vermieter", "dem Kellner", "der Ärztin"], "a": "dem Vermieter" }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Licht und Lampe",
+          "repeat": 2,
+          "text": "Gestern ist das Licht im Zimmer ausgefallen. Die Lampe geht nicht mehr an. Ich habe die Steckdose geprüft, aber es funktioniert trotzdem nicht. Vielleicht ist die Lampe kaputt. Ich brauche eine Reparatur oder eine neue Lampe.",
+          "quiz": [
+            { "q": "Was ist gestern passiert?", "choices": ["das Licht ist ausgefallen", "die Hose ist zu klein", "die Rechnung ist da"], "a": "das Licht ist ausgefallen" },
+            { "q": "Was hat die Person geprüft?", "choices": ["die Steckdose", "die Speisekarte", "das Rezept"], "a": "die Steckdose" }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Nachbarn und Lärm",
+          "repeat": 2,
+          "text": "Meine Nachbarn sind manchmal sehr laut. Am Abend höre ich Lärm, und ich kann nicht gut schlafen. Ich möchte höflich bleiben. Ich klopfe und sage leise: Entschuldigung, könnten Sie bitte etwas leiser sein? Manchmal hilft das, manchmal nicht.",
+          "quiz": [
+            { "q": "Was ist das Problem?", "choices": ["Lärm", "Fieber", "Verspätung"], "a": "Lärm" },
+            { "q": "Was sagt die Person höflich?", "choices": ["Bitte etwas leiser sein", "Die Rechnung, bitte", "Ich hätte gern"], "a": "Bitte etwas leiser sein" }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Dringend",
+          "repeat": 2,
+          "text": "Heute ist die Dusche kalt. Warmes Wasser kommt nicht. Das ist dringend, weil ich morgens duschen muss. Ich rufe die Hausverwaltung an und erkläre das Problem. Ich sage: Könnten Sie das bitte so schnell wie möglich reparieren? Sie versprechen, jemanden zu schicken.",
+          "quiz": [
+            { "q": "Was ist heute kalt?", "choices": ["die Dusche / das Wasser", "der Kaffee", "die Jacke"], "a": "die Dusche / das Wasser" },
+            { "q": "Wen ruft die Person an?", "choices": ["die Hausverwaltung", "den Busfahrer", "den Arzt"], "a": "die Hausverwaltung" }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Mini-Dialog: Schlüssel",
+          "repeat": 2,
+          "text": "Hallo, ich habe ein Problem. Mein Schlüssel funktioniert nicht, ich kann nicht abschließen. Das ist dringend. Können Sie bitte helfen? Ja, wir kommen so schnell wie möglich. Danke.",
+          "quiz": [
+            { "q": "Was funktioniert nicht?", "choices": ["der Schlüssel", "das Medikament", "die Fahrkarte"], "a": "der Schlüssel" },
+            { "q": "Was ist dringend?", "choices": ["abschließen", "kochen", "joggen"], "a": "abschließen" }
+          ]
+        }
+      ]
+    },
+    "output": { "prompt": "Write 6–8 sentences to your landlord/property management about a problem in your apartment. Use: 'Es gibt ein Problem…', '… funktioniert nicht', and 'so schnell wie möglich'. Use 2 vocab words." },
+    "outputRules": {
+      "minSentences": 6,
+      "mustIncludeAny": ["Es gibt ein Problem", "funktioniert nicht", "so schnell wie möglich"],
+      "mustIncludeAllPatterns": [],
+      "mustUseVocabAtLeast": 2
+    },
+    "passRules": { "vocabMinCorrect": 0.8, "grammarMinCorrect": 0.7, "listeningMinCorrect": 0.67, "minOutputChars": 120 }
+  },
+   {
+    "day": 11,
+    "topic": "A2 — Weather & seasons (Wetter und Jahreszeiten)",
+    "vocab_list": [
+      { "de": "das Wetter", "en": "weather" },
+      { "de": "die Sonne", "en": "sun" },
+      { "de": "der Regen", "en": "rain" },
+      { "de": "der Schnee", "en": "snow" },
+      { "de": "der Wind", "en": "wind" },
+      { "de": "warm", "en": "warm" },
+      { "de": "kalt", "en": "cold" },
+      { "de": "heiß", "en": "hot" },
+      { "de": "trocken", "en": "dry" },
+      { "de": "nass", "en": "wet" },
+      { "de": "der Frühling", "en": "spring" },
+      { "de": "der Sommer", "en": "summer" },
+      { "de": "der Herbst", "en": "autumn" },
+      { "de": "der Winter", "en": "winter" },
+      { "de": "scheinen", "en": "to shine" },
+      { "de": "regnen", "en": "to rain" },
+      { "de": "schneien", "en": "to snow" },
+      { "de": "das Grad", "en": "degree" },
+      { "de": "die Temperatur", "en": "temperature" },
+      { "de": "der Himmel", "en": "sky" },
+      { "de": "bewölkt", "en": "cloudy" },
+      { "de": "klar", "en": "clear" },
+      { "de": "wechselhaft", "en": "changeable" },
+      { "de": "frieren", "en": "to freeze / feel cold" },
+      { "de": "sich freuen", "en": "to be happy" },
+      { "de": "spazieren gehen", "en": "to go for a walk" },
+      { "de": "drinnen", "en": "inside" },
+      { "de": "draußen", "en": "outside" },
+      { "de": "der Schirm", "en": "umbrella" },
+      { "de": "die Jacke", "en": "jacket" }
+    ],
+    "vocab_quiz": [
+      { "word": "bewölkt", "choices": ["cloudy", "sunny", "hot", "dry"], "answer": "cloudy" },
+      { "word": "regnen", "choices": ["to rain", "to shine", "to freeze", "to blow"], "answer": "to rain" },
+      { "word": "der Sommer", "choices": ["summer", "winter", "spring", "autumn"], "answer": "summer" },
+      { "word": "frieren", "choices": ["to feel cold", "to swim", "to pay", "to order"], "answer": "to feel cold" },
+      { "word": "draußen", "choices": ["outside", "inside", "early", "late"], "answer": "outside" },
+      { "word": "der Schirm", "choices": ["umbrella", "ticket", "receipt", "lamp"], "answer": "umbrella" },
+      { "word": "wechselhaft", "choices": ["changeable", "boring", "cheap", "quiet"], "answer": "changeable" }
+    ],
+    "grammar": {
+      "title": "Wetter-Sätze + es regnet / es ist … (A2)",
+      "rules": [
+        "Weather often uses 'es': Es regnet. Es schneit.",
+        "Adjective sentences: Es ist warm/kalt/heiß.",
+        "Temperature: Es sind 20 Grad.",
+        "Time first possible: Heute ist es kalt.",
+        "weil: Ich bleibe drin, weil es regnet."
+      ],
+      "examples": [
+        "Heute ist es bewölkt und kalt.",
+        "Es regnet, deshalb nehme ich einen Schirm.",
+        "Im Sommer ist es oft warm."
+      ],
+      "quiz": [
+        { "q": "___ regnet heute.", "choices": ["Es", "Er"], "a": "Es" },
+        { "q": "Es ___ kalt.", "choices": ["ist", "hat"], "a": "ist" },
+        { "q": "Es sind 25 ___.", "choices": ["Grad", "Tage"], "a": "Grad" }
+      ]
+    },
+    "listening": {
+      "level": "A2",
+      "totalMinutes": 10,
+      "segments": [
+        {
+          "id": 1,
+          "title": "Heute",
+          "repeat": 2,
+          "text": "Heute ist das Wetter wechselhaft. Am Morgen ist es kalt und bewölkt. Später scheint die Sonne, aber am Nachmittag regnet es. Ich nehme meine Jacke und einen Schirm mit. So bin ich vorbereitet.",
+          "quiz": [
+            { "q": "Wie ist das Wetter heute?", "choices": ["wechselhaft", "immer sonnig", "sehr heiß"], "a": "wechselhaft" },
+            { "q": "Was nimmt die Person mit?", "choices": ["Jacke und Schirm", "Sandalen", "nichts"], "a": "Jacke und Schirm" }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Jahreszeiten",
+          "repeat": 2,
+          "text": "Im Sommer ist es oft warm oder heiß. Im Winter friere ich schnell, besonders wenn es schneit. Der Frühling ist angenehm und der Herbst ist manchmal nass. Jede Jahreszeit hat etwas Schönes.",
+          "quiz": [
+            { "q": "Wann friert die Person schnell?", "choices": ["im Winter", "im Sommer", "im Frühling"], "a": "im Winter" },
+            { "q": "Wie ist der Herbst?", "choices": ["manchmal nass", "immer heiß", "immer trocken"], "a": "manchmal nass" }
+          ]
+        }
+      ]
+    },
+    "output": {
+      "prompt": "Write 6–8 sentences about today’s weather and your favorite season. Use 'Es ist / Es regnet' and at least 2 vocab words."
+    },
+    "outputRules": {
+      "minSentences": 6,
+      "mustIncludeAny": ["Es ist", "Es regnet", "Es schneit"],
+      "mustIncludeAllPatterns": [],
+      "mustUseVocabAtLeast": 2
+    },
+    "passRules": {
+      "vocabMinCorrect": 0.8,
+      "grammarMinCorrect": 0.7,
+      "listeningMinCorrect": 0.67,
+      "minOutputChars": 120
+    }
+  },
+
+  {
+    "day": 12,
+    "topic": "A2 — Plans & future (werden + Infinitiv)",
+    "vocab_list": [
+      { "de": "der Plan", "en": "plan" },
+      { "de": "planen", "en": "to plan" },
+      { "de": "werden", "en": "to become / will" },
+      { "de": "morgen", "en": "tomorrow" },
+      { "de": "nächste Woche", "en": "next week" },
+      { "de": "bald", "en": "soon" },
+      { "de": "später", "en": "later" },
+      { "de": "vorhaben", "en": "to plan / intend" },
+      { "de": "besuchen", "en": "to visit" },
+      { "de": "reisen", "en": "to travel" },
+      { "de": "lernen", "en": "to learn" },
+      { "de": "arbeiten", "en": "to work" },
+      { "de": "frei haben", "en": "to be free" },
+      { "de": "Urlaub machen", "en": "to go on vacation" },
+      { "de": "entscheiden", "en": "to decide" },
+      { "de": "hoffen", "en": "to hope" },
+      { "de": "wahrscheinlich", "en": "probably" },
+      { "de": "vielleicht", "en": "maybe" },
+      { "de": "sicher", "en": "sure" },
+      { "de": "der Termin", "en": "appointment" },
+      { "de": "Zeit haben", "en": "to have time" },
+      { "de": "keine Zeit haben", "en": "to have no time" },
+      { "de": "mitkommen", "en": "to come along" },
+      { "de": "bleiben", "en": "to stay" },
+      { "de": "anfangen", "en": "to start" },
+      { "de": "aufhören", "en": "to stop" },
+      { "de": "das Ziel", "en": "goal" },
+      { "de": "wichtig", "en": "important" },
+      { "de": "klar", "en": "clear" },
+      { "de": "unsicher", "en": "uncertain" }
+    ],
+    "vocab_quiz": [
+      { "word": "werden", "choices": ["will / to become", "to be", "to have", "to go"], "answer": "will / to become" },
+      { "word": "vorhaben", "choices": ["to intend", "to forget", "to wait", "to pay"], "answer": "to intend" },
+      { "word": "wahrscheinlich", "choices": ["probably", "never", "yesterday", "cheap"], "answer": "probably" },
+      { "word": "mitkommen", "choices": ["to come along", "to exchange", "to repair", "to cross"], "answer": "to come along" },
+      { "word": "das Ziel", "choices": ["goal", "ticket", "size", "noise"], "answer": "goal" },
+      { "word": "unsicher", "choices": ["uncertain", "sure", "loud", "hot"], "answer": "uncertain" },
+      { "word": "nächste Woche", "choices": ["next week", "last week", "today", "now"], "answer": "next week" }
+    ],
+    "grammar": {
+      "title": "Futur: werden + Infinitiv (A2)",
+      "rules": [
+        "Future with werden + infinitive at the end.",
+        "werden is in position 2.",
+        "Often Präsens is also possible for plans.",
+        "Use adverbs: morgen, nächste Woche, bald.",
+        "Vielleicht/Wahrscheinlich soften the statement."
+      ],
+      "examples": [
+        "Ich werde morgen lernen.",
+        "Nächste Woche werde ich reisen.",
+        "Vielleicht werde ich zu Hause bleiben."
+      ],
+      "quiz": [
+        { "q": "Ich ___ morgen arbeiten.", "choices": ["werde", "bin"], "a": "werde" },
+        { "q": "Wir werden Deutsch ___.", "choices": ["lernen", "lerne"], "a": "lernen" },
+        { "q": "___ Woche werde ich reisen.", "choices": ["Nächste", "Letzte"], "a": "Nächste" }
+      ]
+    },
+    "listening": {
+      "level": "A2",
+      "totalMinutes": 10,
+      "segments": [
+        {
+          "id": 1,
+          "title": "Pläne",
+          "repeat": 2,
+          "text": "Morgen werde ich lange arbeiten. Am Abend werde ich lernen, weil ein Test kommt. Nächste Woche habe ich vielleicht mehr Zeit. Dann werde ich Freunde besuchen oder reisen.",
+          "quiz": [
+            { "q": "Was wird die Person morgen machen?", "choices": ["arbeiten", "reisen", "schlafen"], "a": "arbeiten" },
+            { "q": "Was passiert nächste Woche vielleicht?", "choices": ["mehr Zeit haben", "krank sein", "umziehen"], "a": "mehr Zeit haben" }
+          ]
+        }
+      ]
+    },
+    "output": {
+      "prompt": "Write 6–8 sentences about your plans. Use 'werden + Infinitiv' at least twice and 2 vocab words."
+    },
+    "outputRules": {
+      "minSentences": 6,
+      "mustIncludeAny": ["werde", "werden"],
+      "mustIncludeAllPatterns": [],
+      "mustUseVocabAtLeast": 2
+    },
+    "passRules": {
+      "vocabMinCorrect": 0.8,
+      "grammarMinCorrect": 0.7,
+      "listeningMinCorrect": 0.67,
+      "minOutputChars": 120
+    }
+  },
+
+  {
+    "day": 13,
+    "topic": "A2 — Comparisons (größer, besser, mehr)",
+    "vocab_list": [
+      { "de": "groß", "en": "big" },
+      { "de": "klein", "en": "small" },
+      { "de": "alt", "en": "old" },
+      { "de": "jung", "en": "young" },
+      { "de": "gut", "en": "good" },
+      { "de": "schlecht", "en": "bad" },
+      { "de": "besser", "en": "better" },
+      { "de": "schlechter", "en": "worse" },
+      { "de": "mehr", "en": "more" },
+      { "de": "weniger", "en": "less" },
+      { "de": "am meisten", "en": "the most" },
+      { "de": "am besten", "en": "the best" },
+      { "de": "als", "en": "than" },
+      { "de": "wie", "en": "as" },
+      { "de": "schnell", "en": "fast" },
+      { "de": "langsam", "en": "slow" },
+      { "de": "teuer", "en": "expensive" },
+      { "de": "billig", "en": "cheap" },
+      { "de": "einfach", "en": "easy" },
+      { "de": "schwierig", "en": "difficult" },
+      { "de": "interessant", "en": "interesting" },
+      { "de": "langweilig", "en": "boring" },
+      { "de": "der Vergleich", "en": "comparison" },
+      { "de": "finden", "en": "to find / think" },
+      { "de": "meinen", "en": "to think" },
+      { "de": "stimmen", "en": "to be correct" },
+      { "de": "anders", "en": "different" },
+      { "de": "gleich", "en": "same" },
+      { "de": "sehr", "en": "very" },
+      { "de": "ziemlich", "en": "quite" }
+    ],
+    "vocab_quiz": [
+      { "word": "besser", "choices": ["better", "bad", "big", "cheap"], "answer": "better" },
+      { "word": "weniger", "choices": ["less", "more", "same", "fast"], "answer": "less" },
+      { "word": "als", "choices": ["than", "as", "since", "before"], "answer": "than" },
+      { "word": "am besten", "choices": ["the best", "better", "badly", "the least"], "answer": "the best" },
+      { "word": "teuer", "choices": ["expensive", "cheap", "small", "slow"], "answer": "expensive" },
+      { "word": "anders", "choices": ["different", "same", "early", "late"], "answer": "different" },
+      { "word": "schwierig", "choices": ["difficult", "easy", "clear", "warm"], "answer": "difficult" }
+    ],
+    "grammar": {
+      "title": "Komparativ & Superlativ (A2)",
+      "rules": [
+        "Comparative: -er → größer, schneller.",
+        "Irregular: gut → besser → am besten.",
+        "Comparison with als: größer als.",
+        "Equality with wie: so groß wie.",
+        "Superlative with am + -sten."
+      ],
+      "examples": [
+        "Deutsch ist einfacher als früher.",
+        "Berlin ist größer als München.",
+        "Das ist am besten."
+      ],
+      "quiz": [
+        { "q": "Berlin ist ___ als Bonn.", "choices": ["größer", "groß"], "a": "größer" },
+        { "q": "Das ist ___ als gestern.", "choices": ["besser", "gut"], "a": "besser" },
+        { "q": "Er lernt ___ am besten.", "choices": ["Deutsch", "deutsch"], "a": "Deutsch" }
+      ]
+    },
+    "listening": {
+      "level": "A2",
+      "totalMinutes": 10,
+      "segments": [
+        {
+          "id": 1,
+          "title": "Vergleich",
+          "repeat": 2,
+          "text": "Früher war Deutsch für mich schwieriger als jetzt. Jetzt finde ich es einfacher und interessanter. Ich lerne mehr und verstehe besser. Das motiviert mich sehr.",
+          "quiz": [
+            { "q": "Wie war Deutsch früher?", "choices": ["schwieriger", "einfacher", "gleich"], "a": "schwieriger" },
+            { "q": "Wie ist es jetzt?", "choices": ["einfacher", "langweiliger", "teurer"], "a": "einfacher" }
+          ]
+        }
+      ]
+    },
+    "output": {
+      "prompt": "Write 6–8 sentences comparing two things (z.B. früher/jetzt, Stadt A/B). Use 'als', 'besser', or 'am besten' and 2 vocab words."
+    },
+    "outputRules": {
+      "minSentences": 6,
+      "mustIncludeAny": ["als", "besser", "am besten"],
+      "mustIncludeAllPatterns": [],
+      "mustUseVocabAtLeast": 2
+    },
+    "passRules": {
+      "vocabMinCorrect": 0.8,
+      "grammarMinCorrect": 0.7,
+      "listeningMinCorrect": 0.67,
+      "minOutputChars": 120
+    }
+  },
+
+  {
+    "day": 14,
+    "topic": "A2 — Opinions & reasons (weil / denn)",
+    "vocab_list": [
+      { "de": "denken", "en": "to think" },
+      { "de": "meinen", "en": "to think" },
+      { "de": "finden", "en": "to find / think" },
+      { "de": "die Meinung", "en": "opinion" },
+      { "de": "der Grund", "en": "reason" },
+      { "de": "weil", "en": "because" },
+      { "de": "denn", "en": "because" },
+      { "de": "deshalb", "en": "therefore" },
+      { "de": "wichtig", "en": "important" },
+      { "de": "richtig", "en": "correct" },
+      { "de": "falsch", "en": "wrong" },
+      { "de": "interessant", "en": "interesting" },
+      { "de": "langweilig", "en": "boring" },
+      { "de": "schwer", "en": "hard" },
+      { "de": "leicht", "en": "easy" },
+      { "de": "helfen", "en": "to help" },
+      { "de": "lernen", "en": "to learn" },
+      { "de": "verstehen", "en": "to understand" },
+      { "de": "glauben", "en": "to believe" },
+      { "de": "klar", "en": "clear" },
+      { "de": "unklar", "en": "unclear" },
+      { "de": "ehrlich", "en": "honest" },
+      { "de": "persönlich", "en": "personal" },
+      { "de": "für mich", "en": "for me" },
+      { "de": "zum Beispiel", "en": "for example" },
+      { "de": "oft", "en": "often" },
+      { "de": "manchmal", "en": "sometimes" },
+      { "de": "sehr", "en": "very" },
+      { "de": "nicht so", "en": "not so" },
+      { "de": "besonders", "en": "especially" }
+    ],
+    "vocab_quiz": [
+      { "word": "weil", "choices": ["because", "and", "or", "but"], "answer": "because" },
+      { "word": "die Meinung", "choices": ["opinion", "plan", "direction", "price"], "answer": "opinion" },
+      { "word": "ehrlich", "choices": ["honest", "cheap", "loud", "cold"], "answer": "honest" },
+      { "word": "deshalb", "choices": ["therefore", "before", "never", "maybe"], "answer": "therefore" },
+      { "word": "schwer", "choices": ["hard", "easy", "quiet", "small"], "answer": "hard" },
+      { "word": "klar", "choices": ["clear", "dirty", "late", "wet"], "answer": "clear" },
+      { "word": "helfen", "choices": ["to help", "to order", "to freeze", "to cross"], "answer": "to help" }
+    ],
+    "grammar": {
+      "title": "weil vs. denn (A2)",
+      "rules": [
+        "weil sends the verb to the end.",
+        "denn keeps normal word order.",
+        "Both give reasons.",
+        "Use deshalb as result.",
+        "Opinion verbs: ich denke, ich finde, ich meine."
+      ],
+      "examples": [
+        "Ich lerne Deutsch, weil es wichtig ist.",
+        "Ich lerne Deutsch, denn ich brauche es.",
+        "Deutsch ist schwer, deshalb übe ich viel."
+      ],
+      "quiz": [
+        { "q": "Ich bleibe zu Hause, ___ es regnet.", "choices": ["weil", "denn"], "a": "weil" },
+        { "q": "Ich bleibe zu Hause, ___ es regnet.", "choices": ["denn", "weil"], "a": "denn" },
+        { "q": "Ich finde Deutsch ___.", "choices": ["interessant", "interessante"], "a": "interessant" }
+      ]
+    },
+    "listening": {
+      "level": "A2",
+      "totalMinutes": 10,
+      "segments": [
+        {
+          "id": 1,
+          "title": "Meinung",
+          "repeat": 2,
+          "text": "Ich finde Deutsch interessant, weil man viele Menschen treffen kann. Es ist manchmal schwer, aber es hilft mir sehr. Deshalb lerne ich jeden Tag ein bisschen.",
+          "quiz": [
+            { "q": "Warum lernt die Person Deutsch?", "choices": ["weil es hilft", "weil es teuer ist", "weil es kalt ist"], "a": "weil es hilft" },
+            { "q": "Wie ist Deutsch manchmal?", "choices": ["schwer", "langweilig", "unnötig"], "a": "schwer" }
+          ]
+        }
+      ]
+    },
+    "output": {
+      "prompt": "Write 6–8 sentences giving your opinion about learning German. Use 'weil' or 'denn' at least twice and 2 vocab words."
+    },
+    "outputRules": {
+      "minSentences": 6,
+      "mustIncludeAny": ["weil", "denn"],
+      "mustIncludeAllPatterns": [],
+      "mustUseVocabAtLeast": 2
+    },
+    "passRules": {
+      "vocabMinCorrect": 0.8,
+      "grammarMinCorrect": 0.7,
+      "listeningMinCorrect": 0.67,
+      "minOutputChars": 120
+    }
+  },
+
+  {
+    "day": 15,
+    "topic": "A2 — Review & real-life communication",
+    "vocab_list": [
+      { "de": "wiederholen", "en": "to repeat" },
+      { "de": "zusammenfassen", "en": "to summarize" },
+      { "de": "sich verbessern", "en": "to improve" },
+      { "de": "der Fortschritt", "en": "progress" },
+      { "de": "die Erfahrung", "en": "experience" },
+      { "de": "der Alltag", "en": "daily life" },
+      { "de": "die Situation", "en": "situation" },
+      { "de": "reagieren", "en": "to react" },
+      { "de": "verstehen", "en": "to understand" },
+      { "de": "sprechen", "en": "to speak" },
+      { "de": "zuhören", "en": "to listen" },
+      { "de": "fragen", "en": "to ask" },
+      { "de": "antworten", "en": "to answer" },
+      { "de": "höflich", "en": "polite" },
+      { "de": "klar", "en": "clear" },
+      { "de": "ruhig", "en": "calm" },
+      { "de": "sicher", "en": "confident" },
+      { "de": "unsicher", "en": "insecure" },
+      { "de": "üben", "en": "to practice" },
+      { "de": "klappen", "en": "to work out" },
+      { "de": "wichtig", "en": "important" },
+      { "de": "nützlich", "en": "useful" },
+      { "de": "im Alltag", "en": "in daily life" },
+      { "de": "zum Beispiel", "en": "for example" },
+      { "de": "häufig", "en": "frequently" },
+      { "de": "selten", "en": "rarely" },
+      { "de": "oft", "en": "often" },
+      { "de": "gern", "en": "gladly" },
+      { "de": "weiter", "en": "further" },
+      { "de": "das Ziel", "en": "goal" }
+    ],
+    "vocab_quiz": [
+      { "word": "der Fortschritt", "choices": ["progress", "problem", "plan", "price"], "answer": "progress" },
+      { "word": "sich verbessern", "choices": ["to improve", "to stop", "to pay", "to cross"], "answer": "to improve" },
+      { "word": "höflich", "choices": ["polite", "loud", "cold", "broken"], "answer": "polite" },
+      { "word": "üben", "choices": ["to practice", "to order", "to repair", "to freeze"], "answer": "to practice" },
+      { "word": "klappen", "choices": ["to work out", "to hurt", "to fail", "to lock"], "answer": "to work out" },
+      { "word": "nützlich", "choices": ["useful", "useless", "wet", "late"], "answer": "useful" },
+      { "word": "im Alltag", "choices": ["in daily life", "at night", "last year", "outside"], "answer": "in daily life" }
+    ],
+    "grammar": {
+      "title": "Review: word order, Perfekt, future, reasons",
+      "rules": [
+        "Verb in position 2 in main clauses.",
+        "Perfekt for past events.",
+        "werden + infinitive for future.",
+        "weil/denn for reasons.",
+        "Polite forms for real situations."
+      ],
+      "examples": [
+        "Ich habe viel gelernt.",
+        "Ich werde weiter üben.",
+        "Ich lerne Deutsch, weil es wichtig ist."
+      ],
+      "quiz": [
+        { "q": "Ich ___ Deutsch gelernt.", "choices": ["habe", "bin"], "a": "habe" },
+        { "q": "Ich ___ weiter lernen.", "choices": ["werde", "bin"], "a": "werde" },
+        { "q": "Ich lerne, ___ es nützlich ist.", "choices": ["weil", "denn"], "a": "weil" }
+      ]
+    },
+    "listening": {
+      "level": "A2",
+      "totalMinutes": 10,
+      "segments": [
+        {
+          "id": 1,
+          "title": "Rückblick",
+          "repeat": 2,
+          "text": "In den letzten Wochen habe ich viel gelernt. Am Anfang war ich unsicher, aber jetzt fühle ich mich besser. Ich verstehe mehr im Alltag und kann einfacher sprechen. Das motiviert mich sehr.",
+          "quiz": [
+            { "q": "Wie fühlt sich die Person jetzt?", "choices": ["besser", "schlechter", "gleich"], "a": "besser" },
+            { "q": "Was motiviert die Person?", "choices": ["Fortschritt", "Stress", "Lärm"], "a": "Fortschritt" }
+          ]
+        }
+      ]
+    },
+    "output": {
+      "prompt": "Write 6–8 sentences reviewing your learning progress. Use Perfekt, future (werden), and one reason with weil/denn."
+    },
+    "outputRules": {
+      "minSentences": 6,
+      "mustIncludeAny": ["habe", "werde", "weil", "denn"],
+      "mustIncludeAllPatterns": [],
+      "mustUseVocabAtLeast": 2
+    },
+    "passRules": {
+      "vocabMinCorrect": 0.8,
+      "grammarMinCorrect": 0.7,
+      "listeningMinCorrect": 0.67,
+      "minOutputChars": 120
+    }
+  },
+  {
+  "day": 16,
+  "topic": "Modal verbs: können / müssen / wollen (A2)",
+  "vocab_list": [
+    {"de":"können","en":"can / to be able"},
+    {"de":"müssen","en":"must"},
+    {"de":"wollen","en":"to want"},
+    {"de":"dürfen","en":"may / allowed"},
+    {"de":"sollen","en":"should"},
+    {"de":"brauchen","en":"to need"},
+    {"de":"versuchen","en":"to try"},
+    {"de":"planen","en":"to plan"},
+    {"de":"Zeit haben","en":"to have time"},
+    {"de":"keine Zeit haben","en":"to have no time"},
+    {"de":"helfen","en":"to help"},
+    {"de":"lernen","en":"to learn"},
+    {"de":"arbeiten","en":"to work"},
+    {"de":"reisen","en":"to travel"},
+    {"de":"heute","en":"today"},
+    {"de":"morgen","en":"tomorrow"},
+    {"de":"später","en":"later"},
+    {"de":"jetzt","en":"now"},
+    {"de":"zusammen","en":"together"},
+    {"de":"allein","en":"alone"},
+    {"de":"wichtig","en":"important"},
+    {"de":"nötig","en":"necessary"},
+    {"de":"frei","en":"free"},
+    {"de":"bereit","en":"ready"},
+    {"de":"fertig","en":"finished"},
+    {"de":"Problem","en":"problem"},
+    {"de":"Lösung","en":"solution"},
+    {"de":"Termin","en":"appointment"},
+    {"de":"Chance","en":"chance"},
+    {"de":"Ziel","en":"goal"}
+  ],
+  "vocab_quiz":[
+    {"word":"müssen","choices":["must","can","want","may"],"answer":"must"},
+    {"word":"wollen","choices":["to want","to work","to help","to need"],"answer":"to want"},
+    {"word":"dürfen","choices":["may","must","can","should"],"answer":"may"},
+    {"word":"bereit","choices":["ready","late","tired","free"],"answer":"ready"},
+    {"word":"Lösung","choices":["solution","problem","goal","plan"],"answer":"solution"}
+  ],
+  "grammar":{
+    "title":"Modal verbs in present tense",
+    "rules":[
+      "Modal verb is conjugated; main verb goes to the end in infinitive.",
+      "Ich kann heute lernen.",
+      "Ich muss arbeiten.",
+      "Ich will reisen.",
+      "Sentence order: Subject – modal – object – infinitive.",
+      "Modal verbs are very common in spoken German."
+    ],
+    "examples":[
+      "Ich kann heute nicht kommen.",
+      "Wir müssen morgen früh aufstehen.",
+      "Sie will Deutsch lernen."
+    ],
+    "quiz":[
+      {"q":"Ich ___ heute lernen.","choices":["kann","lerne"],"a":"kann"},
+      {"q":"Wir ___ arbeiten.","choices":["müssen","arbeiten"],"a":"müssen"},
+      {"q":"Er ___ reisen.","choices":["will","reist"],"a":"will"}
+    ]
+  },
+  "listening":{
+    "level":"A2",
+    "totalMinutes":10,
+    "segments":[
+      {"id":1,"title":"Plan","repeat":2,"text":"Heute muss ich arbeiten, aber später kann ich lernen.","quiz":[{"q":"Was muss die Person heute?","choices":["arbeiten","reisen"],"a":"arbeiten"}]},
+      {"id":2,"title":"Wunsch","repeat":2,"text":"Ich will besser Deutsch sprechen.","quiz":[{"q":"Was will die Person?","choices":["Deutsch sprechen","umziehen"],"a":"Deutsch sprechen"}]},
+      {"id":3,"title":"Pflicht","repeat":2,"text":"Man muss regelmäßig üben.","quiz":[{"q":"Was muss man tun?","choices":["üben","schlafen"],"a":"üben"}]},
+      {"id":4,"title":"Möglichkeit","repeat":2,"text":"Heute kann ich früher gehen.","quiz":[{"q":"Was kann die Person tun?","choices":["früher gehen","arbeiten"],"a":"früher gehen"}]}
+    ]
+  },
+  "output":{"prompt":"Write 6–8 sentences using können, müssen, wollen. Use at least 2 vocab words."},
+  "outputRules":{"minSentences":6,"mustIncludeAny":["kann","muss","will"],"mustIncludeAllPatterns":[],"mustUseVocabAtLeast":2},
+  "passRules":{"vocabMinCorrect":0.8,"grammarMinCorrect":0.7,"listeningMinCorrect":0.67,"minOutputChars":120}
+},
+{
+  "day": 17,
+  "topic": "Reasons: weil / denn / deshalb (A2)",
+  "vocab_list": [
+    {"de":"weil","en":"because"},
+    {"de":"denn","en":"because"},
+    {"de":"deshalb","en":"therefore"},
+    {"de":"Grund","en":"reason"},
+    {"de":"Situation","en":"situation"},
+    {"de":"Problem","en":"problem"},
+    {"de":"Lösung","en":"solution"},
+    {"de":"Zeit","en":"time"},
+    {"de":"Stress","en":"stress"},
+    {"de":"müde","en":"tired"},
+    {"de":"krank","en":"sick"},
+    {"de":"arbeiten","en":"to work"},
+    {"de":"lernen","en":"to learn"},
+    {"de":"bleiben","en":"to stay"},
+    {"de":"gehen","en":"to go"},
+    {"de":"kommen","en":"to come"},
+    {"de":"früh","en":"early"},
+    {"de":"spät","en":"late"},
+    {"de":"zu Hause","en":"at home"},
+    {"de":"Büro","en":"office"},
+    {"de":"Termin","en":"appointment"},
+    {"de":"wichtig","en":"important"},
+    {"de":"schwierig","en":"difficult"},
+    {"de":"einfach","en":"easy"},
+    {"de":"klar","en":"clear"},
+    {"de":"darum","en":"that’s why"},
+    {"de":"oft","en":"often"},
+    {"de":"manchmal","en":"sometimes"},
+    {"de":"heute","en":"today"}
+  ],
+  "vocab_quiz":[
+    {"word":"weil","choices":["because","therefore","although","when"],"answer":"because"},
+    {"word":"deshalb","choices":["therefore","because","if","before"],"answer":"therefore"},
+    {"word":"Grund","choices":["reason","problem","time","plan"],"answer":"reason"},
+    {"word":"krank","choices":["sick","tired","early","ready"],"answer":"sick"},
+    {"word":"schwierig","choices":["difficult","easy","clear","late"],"answer":"difficult"}
+  ],
+  "grammar":{
+    "title":"weil / denn / deshalb",
+    "rules":[
+      "weil introduces a subordinate clause → verb at the end.",
+      "denn keeps normal word order (verb position 2).",
+      "deshalb starts main clause → verb position 2.",
+      "Use weil in spoken & written German most often.",
+      "Only one verb at sentence end with weil."
+    ],
+    "examples":[
+      "Ich bleibe zu Hause, weil ich krank bin.",
+      "Ich lerne Deutsch, denn es ist wichtig.",
+      "Ich bin müde, deshalb gehe ich früh schlafen."
+    ],
+    "quiz":[
+      {"q":"Ich bleibe zu Hause, ___ ich krank bin.","choices":["weil","deshalb"],"a":"weil"},
+      {"q":"Ich bin müde, ___ gehe ich schlafen.","choices":["deshalb","weil"],"a":"deshalb"},
+      {"q":"Ich lerne Deutsch, ___ es wichtig ist.","choices":["denn","deshalb"],"a":"denn"}
+    ]
+  },
+  "listening":{
+    "level":"A2",
+    "totalMinutes":10,
+    "segments":[
+      {"id":1,"title":"Krank","repeat":2,"text":"Ich bleibe heute zu Hause, weil ich krank bin.","quiz":[{"q":"Warum bleibt die Person zu Hause?","choices":["sie ist krank","sie arbeitet"],"a":"sie ist krank"}]},
+      {"id":2,"title":"Stress","repeat":2,"text":"Ich habe Stress, deshalb arbeite ich langsam.","quiz":[{"q":"Warum arbeitet die Person langsam?","choices":["wegen Stress","wegen Urlaub"],"a":"wegen Stress"}]},
+      {"id":3,"title":"Grund","repeat":2,"text":"Ich lerne Deutsch, denn es ist wichtig.","quiz":[{"q":"Warum lernt die Person Deutsch?","choices":["es ist wichtig","es ist leicht"],"a":"es ist wichtig"}]},
+      {"id":4,"title":"Zeit","repeat":2,"text":"Ich gehe früh, weil ich morgen arbeiten muss.","quiz":[{"q":"Warum geht die Person früh?","choices":["sie muss arbeiten","sie ist fertig"],"a":"sie muss arbeiten"}]}
+    ]
+  },
+  "output":{"prompt":"Write 6–8 sentences using weil, denn, deshalb. Use at least 2 vocab words."},
+  "outputRules":{"minSentences":6,"mustIncludeAny":["weil","denn","deshalb"],"mustIncludeAllPatterns":[],"mustUseVocabAtLeast":2},
+  "passRules":{"vocabMinCorrect":0.8,"grammarMinCorrect":0.7,"listeningMinCorrect":0.67,"minOutputChars":120}
+},
+{
+  "day": 18,
+  "topic": "dass-sentences (opinions & thoughts)",
+  "vocab_list": [
+    {"de":"denken","en":"to think"},
+    {"de":"glauben","en":"to believe"},
+    {"de":"meinen","en":"to mean"},
+    {"de":"finden","en":"to find"},
+    {"de":"wissen","en":"to know"},
+    {"de":"sagen","en":"to say"},
+    {"de":"hoffen","en":"to hope"},
+    {"de":"dass","en":"that"},
+    {"de":"wichtig","en":"important"},
+    {"de":"richtig","en":"right"},
+    {"de":"falsch","en":"wrong"},
+    {"de":"schwer","en":"hard"},
+    {"de":"leicht","en":"easy"},
+    {"de":"klar","en":"clear"},
+    {"de":"Problem","en":"problem"},
+    {"de":"Lösung","en":"solution"},
+    {"de":"Deutsch","en":"German"},
+    {"de":"Sprache","en":"language"},
+    {"de":"lernen","en":"to learn"},
+    {"de":"üben","en":"to practice"},
+    {"de":"Zeit","en":"time"},
+    {"de":"Geduld","en":"patience"},
+    {"de":"Fortschritt","en":"progress"},
+    {"de":"Angst","en":"fear"},
+    {"de":"Fehler","en":"mistake"},
+    {"de":"normal","en":"normal"},
+    {"de":"gut","en":"good"},
+    {"de":"besser","en":"better"},
+    {"de":"schlecht","en":"bad"}
+  ],
+  "vocab_quiz":[
+    {"word":"denken","choices":["to think","to know","to say","to hope"],"answer":"to think"},
+    {"word":"dass","choices":["that","because","therefore","when"],"answer":"that"},
+    {"word":"Fortschritt","choices":["progress","problem","time","fear"],"answer":"progress"},
+    {"word":"Geduld","choices":["patience","stress","solution","reason"],"answer":"patience"},
+    {"word":"Fehler","choices":["mistake","goal","plan","chance"],"answer":"mistake"}
+  ],
+  "grammar":{
+    "title":"dass-clauses",
+    "rules":[
+      "dass introduces a subordinate clause.",
+      "Verb goes to the end of the dass-clause.",
+      "Often used after denken, glauben, sagen, finden.",
+      "Comma before dass.",
+      "Very common in opinions."
+    ],
+    "examples":[
+      "Ich denke, dass Deutsch schwer ist.",
+      "Ich glaube, dass ich Fortschritt mache.",
+      "Sie sagt, dass sie keine Zeit hat."
+    ],
+    "quiz":[
+      {"q":"Ich denke, ___ Deutsch wichtig ist.","choices":["dass","weil"],"a":"dass"},
+      {"q":"Ich glaube, dass ich ___ Zeit habe.","choices":["keine","nicht"],"a":"keine"},
+      {"q":"Er sagt, dass er ___ lernt.","choices":["Deutsch","lernt Deutsch"],"a":"Deutsch"}
+    ]
+  },
+  "listening":{
+    "level":"A2",
+    "totalMinutes":10,
+    "segments":[
+      {"id":1,"title":"Meinung","repeat":2,"text":"Ich denke, dass Deutsch wichtig ist.","quiz":[{"q":"Was denkt die Person?","choices":["Deutsch ist wichtig","Deutsch ist leicht"],"a":"Deutsch ist wichtig"}]},
+      {"id":2,"title":"Glauben","repeat":2,"text":"Ich glaube, dass ich besser werde.","quiz":[{"q":"Was glaubt die Person?","choices":["sie wird besser","sie ist fertig"],"a":"sie wird besser"}]},
+      {"id":3,"title":"Fehler","repeat":2,"text":"Ich weiß, dass Fehler normal sind.","quiz":[{"q":"Was sind Fehler?","choices":["normal","schlecht"],"a":"normal"}]},
+      {"id":4,"title":"Hoffnung","repeat":2,"text":"Ich hoffe, dass ich bald flüssig spreche.","quiz":[{"q":"Was hofft die Person?","choices":["flüssig sprechen","umziehen"],"a":"flüssig sprechen"}]}
+    ]
+  },
+  "output":{"prompt":"Write 6–8 sentences using dass. Use verbs like denken, glauben, sagen."},
+  "outputRules":{"minSentences":6,"mustIncludeAny":["dass"],"mustIncludeAllPatterns":[],"mustUseVocabAtLeast":2},
+  "passRules":{"vocabMinCorrect":0.8,"grammarMinCorrect":0.7,"listeningMinCorrect":0.67,"minOutputChars":120}
+},
+{
+  "day": 19,
+  "topic": "Separable verbs (A2)",
+  "vocab_list": [
+    {"de":"aufstehen","en":"to get up"},
+    {"de":"ankommen","en":"to arrive"},
+    {"de":"abfahren","en":"to depart"},
+    {"de":"mitkommen","en":"to come along"},
+    {"de":"zurückkommen","en":"to come back"},
+    {"de":"einladen","en":"to invite"},
+    {"de":"anrufen","en":"to call"},
+    {"de":"fernsehen","en":"to watch TV"},
+    {"de":"aufhören","en":"to stop"},
+    {"de":"anfangen","en":"to start"},
+    {"de":"vorbereiten","en":"to prepare"},
+    {"de":"einkaufen","en":"to shop"},
+    {"de":"aufmachen","en":"to open"},
+    {"de":"zumachen","en":"to close"},
+    {"de":"aufpassen","en":"to pay attention"},
+    {"de":"zuhören","en":"to listen"},
+    {"de":"weggehen","en":"to go away"},
+    {"de":"weitergehen","en":"to continue"},
+    {"de":"einsteigen","en":"to get in"},
+    {"de":"aussteigen","en":"to get out"},
+    {"de":"früh","en":"early"},
+    {"de":"spät","en":"late"},
+    {"de":"pünktlich","en":"on time"},
+    {"de":"zusammen","en":"together"},
+    {"de":"allein","en":"alone"},
+    {"de":"heute","en":"today"},
+    {"de":"morgen","en":"tomorrow"},
+    {"de":"dann","en":"then"},
+    {"de":"danach","en":"after that"}
+  ],
+  "vocab_quiz":[
+    {"word":"ankommen","choices":["to arrive","to leave","to stop","to prepare"],"answer":"to arrive"},
+    {"word":"einladen","choices":["to invite","to call","to stop","to listen"],"answer":"to invite"},
+    {"word":"aufstehen","choices":["to get up","to go out","to arrive","to start"],"answer":"to get up"},
+    {"word":"abfahren","choices":["to depart","to arrive","to open","to close"],"answer":"to depart"},
+    {"word":"zuhören","choices":["to listen","to stop","to prepare","to leave"],"answer":"to listen"}
+  ],
+  "grammar":{
+    "title":"Separable verbs in main clauses",
+    "rules":[
+      "Prefix goes to the end in present tense.",
+      "Ich stehe um sieben Uhr auf.",
+      "In Perfekt, prefix stays together: Ich bin aufgestanden.",
+      "Verb position 2 rule still applies.",
+      "Very common in daily German."
+    ],
+    "examples":[
+      "Der Zug kommt um acht Uhr an.",
+      "Ich rufe dich später an.",
+      "Wir fangen heute an."
+    ],
+    "quiz":[
+      {"q":"Ich ___ um sieben Uhr ___.","choices":["stehe / auf","aufstehe"],"a":"stehe / auf"},
+      {"q":"Der Zug ___ an.","choices":["kommt","ankommt"],"a":"kommt"},
+      {"q":"Ich ___ dich an.","choices":["rufe","anrufe"],"a":"rufe"}
+    ]
+  },
+  "listening":{
+    "level":"A2",
+    "totalMinutes":10,
+    "segments":[
+      {"id":1,"title":"Morgen","repeat":2,"text":"Ich stehe früh auf und fahre zur Arbeit.","quiz":[{"q":"Was macht die Person früh?","choices":["aufstehen","ankommen"],"a":"aufstehen"}]},
+      {"id":2,"title":"Ankunft","repeat":2,"text":"Der Zug kommt pünktlich an.","quiz":[{"q":"Wie kommt der Zug an?","choices":["pünktlich","spät"],"a":"pünktlich"}]},
+      {"id":3,"title":"Telefon","repeat":2,"text":"Ich rufe dich später an.","quiz":[{"q":"Was macht die Person später?","choices":["anrufen","aufstehen"],"a":"anrufen"}]},
+      {"id":4,"title":"Treffen","repeat":2,"text":"Wir fangen um acht Uhr an.","quiz":[{"q":"Wann fangen sie an?","choices":["um acht","um zehn"],"a":"um acht"}]}
+    ]
+  },
+  "output":{"prompt":"Write 6–8 sentences using separable verbs (aufstehen, ankommen, anrufen…)."},
+  "outputRules":{"minSentences":6,"mustIncludeAny":["auf","an"],"mustIncludeAllPatterns":[],"mustUseVocabAtLeast":2},
+  "passRules":{"vocabMinCorrect":0.8,"grammarMinCorrect":0.7,"listeningMinCorrect":0.67,"minOutputChars":120}
+},
+{
+  "day": 20,
+  "topic": "Reflexive verbs (A2)",
+  "vocab_list": [
+    {"de":"sich freuen","en":"to be happy"},
+    {"de":"sich erinnern","en":"to remember"},
+    {"de":"sich entspannen","en":"to relax"},
+    {"de":"sich fühlen","en":"to feel"},
+    {"de":"sich vorbereiten","en":"to prepare oneself"},
+    {"de":"sich interessieren","en":"to be interested"},
+    {"de":"sich treffen","en":"to meet"},
+    {"de":"sich beeilen","en":"to hurry"},
+    {"de":"sich kümmern","en":"to take care"},
+    {"de":"sich ändern","en":"to change"},
+    {"de":"mich","en":"myself"},
+    {"de":"dich","en":"yourself"},
+    {"de":"sich","en":"himself/herself"},
+    {"de":"uns","en":"ourselves"},
+    {"de":"euch","en":"yourselves"},
+    {"de":"Zeit","en":"time"},
+    {"de":"Stress","en":"stress"},
+    {"de":"Freizeit","en":"free time"},
+    {"de":"Arbeit","en":"work"},
+    {"de":"Gesundheit","en":"health"},
+    {"de":"gut","en":"good"},
+    {"de":"schlecht","en":"bad"},
+    {"de":"müde","en":"tired"},
+    {"de":"glücklich","en":"happy"},
+    {"de":"bereit","en":"ready"},
+    {"de":"heute","en":"today"},
+    {"de":"morgen","en":"tomorrow"},
+    {"de":"oft","en":"often"},
+    {"de":"manchmal","en":"sometimes"},
+    {"de":"selten","en":"rarely"}
+  ],
+  "vocab_quiz":[
+    {"word":"sich freuen","choices":["to be happy","to hurry","to remember","to meet"],"answer":"to be happy"},
+    {"word":"sich erinnern","choices":["to remember","to forget","to relax","to change"],"answer":"to remember"},
+    {"word":"sich beeilen","choices":["to hurry","to relax","to stop","to listen"],"answer":"to hurry"},
+    {"word":"sich fühlen","choices":["to feel","to prepare","to work","to travel"],"answer":"to feel"},
+    {"word":"sich kümmern","choices":["to take care","to forget","to meet","to arrive"],"answer":"to take care"}
+  ],
+  "grammar":{
+    "title":"Reflexive verbs",
+    "rules":[
+      "Reflexive verb uses reflexive pronoun.",
+      "Ich freue mich.",
+      "Word order: pronoun before verb or after modal.",
+      "Very common in daily language.",
+      "Pronoun changes with subject."
+    ],
+    "examples":[
+      "Ich fühle mich gut.",
+      "Wir freuen uns auf das Wochenende.",
+      "Er erinnert sich an den Termin."
+    ],
+    "quiz":[
+      {"q":"Ich freue ___ .","choices":["mich","mir"],"a":"mich"},
+      {"q":"Wir erinnern ___ .","choices":["uns","unsere"],"a":"uns"},
+      {"q":"Er fühlt ___ gut.","choices":["sich","ihn"],"a":"sich"}
+    ]
+  },
+  "listening":{
+    "level":"A2",
+    "totalMinutes":10,
+    "segments":[
+      {"id":1,"title":"Gefühl","repeat":2,"text":"Ich fühle mich heute gut.","quiz":[{"q":"Wie fühlt sich die Person?","choices":["gut","schlecht"],"a":"gut"}]},
+      {"id":2,"title":"Freude","repeat":2,"text":"Ich freue mich auf das Wochenende.","quiz":[{"q":"Worauf freut sich die Person?","choices":["Wochenende","Arbeit"],"a":"Wochenende"}]},
+      {"id":3,"title":"Stress","repeat":2,"text":"Ich entspanne mich nach der Arbeit.","quiz":[{"q":"Wann entspannt sich die Person?","choices":["nach der Arbeit","am Morgen"],"a":"nach der Arbeit"}]},
+      {"id":4,"title":"Termin","repeat":2,"text":"Er erinnert sich an den Termin.","quiz":[{"q":"Woran erinnert er sich?","choices":["an den Termin","an den Urlaub"],"a":"an den Termin"}]}
+    ]
+  },
+  "output":{"prompt":"Write 6–8 sentences using reflexive verbs (sich freuen, sich fühlen, sich erinnern…)."},
+  "outputRules":{"minSentences":6,"mustIncludeAny":["mich","sich","uns"],"mustIncludeAllPatterns":[],"mustUseVocabAtLeast":2},
+  "passRules":{"vocabMinCorrect":0.8,"grammarMinCorrect":0.7,"listeningMinCorrect":0.67,"minOutputChars":120}
+},
+{
+  "day": 21,
+  "topic": "Comparative & Superlative (A2)",
+  "vocab_list": [
+    {"de":"groß","en":"big"},
+    {"de":"klein","en":"small"},
+    {"de":"alt","en":"old"},
+    {"de":"jung","en":"young"},
+    {"de":"neu","en":"new"},
+    {"de":"altmodisch","en":"old-fashioned"},
+    {"de":"schnell","en":"fast"},
+    {"de":"langsam","en":"slow"},
+    {"de":"gut","en":"good"},
+    {"de":"schlecht","en":"bad"},
+    {"de":"besser","en":"better"},
+    {"de":"schlechter","en":"worse"},
+    {"de":"größer","en":"bigger"},
+    {"de":"kleiner","en":"smaller"},
+    {"de":"älter","en":"older"},
+    {"de":"jünger","en":"younger"},
+    {"de":"am besten","en":"the best"},
+    {"de":"am schlimmsten","en":"the worst"},
+    {"de":"als","en":"than"},
+    {"de":"wie","en":"as"},
+    {"de":"teuer","en":"expensive"},
+    {"de":"billig","en":"cheap"},
+    {"de":"interessant","en":"interesting"},
+    {"de":"langweilig","en":"boring"},
+    {"de":"leicht","en":"easy"},
+    {"de":"schwer","en":"difficult"},
+    {"de":"stark","en":"strong"},
+    {"de":"schwach","en":"weak"},
+    {"de":"beliebt","en":"popular"}
+  ],
+  "grammar":{
+    "title":"Comparative & Superlative",
+    "rules":[
+      "Comparative: Adjective + -er (größer, schneller).",
+      "Use 'als' for comparison: größer als.",
+      "Superlative: am + adjective + -sten.",
+      "Irregular: gut → besser → am besten.",
+      "wie is used for equal comparison: so groß wie."
+    ],
+    "examples":[
+      "Deutsch ist schwerer als Englisch.",
+      "Dieses Buch ist besser.",
+      "Das ist am besten."
+    ],
+    "quiz":[
+      {"q":"Berlin ist ___ als Erlangen.","choices":["größer","groß"],"a":"größer"},
+      {"q":"Das ist ___ Film.","choices":["am besten","besser"],"a":"am besten"},
+      {"q":"Auto A ist schneller ___ Auto B.","choices":["als","wie"],"a":"als"}
+    ]
+  },
+  "listening":{
+    "level":"A2",
+    "totalMinutes":10,
+    "segments":[
+      {"id":1,"title":"Vergleich","repeat":2,"text":"Berlin ist größer als viele Städte.","quiz":[{"q":"Welche Stadt ist größer?","choices":["Berlin","keine"],"a":"Berlin"}]},
+      {"id":2,"title":"Qualität","repeat":2,"text":"Dieses Handy ist besser als das alte.","quiz":[{"q":"Was ist besser?","choices":["das neue Handy","das alte"],"a":"das neue Handy"}]},
+      {"id":3,"title":"Tempo","repeat":2,"text":"Der Zug ist schneller als der Bus.","quiz":[{"q":"Was ist schneller?","choices":["Zug","Bus"],"a":"Zug"}]},
+      {"id":4,"title":"Superlativ","repeat":2,"text":"Das ist am besten für mich.","quiz":[{"q":"Was ist es?","choices":["am besten","schlecht"],"a":"am besten"}]},
+      {"id":5,"title":"Mini","repeat":2,"text":"Diese Aufgabe ist leichter.","quiz":[{"q":"Wie ist die Aufgabe?","choices":["leichter","schwerer"],"a":"leichter"}]}
+    ]
+  },
+  "output":{"prompt":"Write 6–8 sentences comparing two things. Use als and one superlative."},
+  "outputRules":{"minSentences":6,"mustIncludeAny":["als","am"],"mustIncludeAllPatterns":[],"mustUseVocabAtLeast":2},
+  "passRules":{"vocabMinCorrect":0.8,"grammarMinCorrect":0.7,"listeningMinCorrect":0.67,"minOutputChars":120}
+},
+{
+  "day": 22,
+  "topic": "Prepositions of time (A2)",
+  "vocab_list": [
+    {"de":"am","en":"on (time)"},
+    {"de":"im","en":"in"},
+    {"de":"um","en":"at (clock time)"},
+    {"de":"vor","en":"before / ago"},
+    {"de":"nach","en":"after"},
+    {"de":"seit","en":"since"},
+    {"de":"bis","en":"until"},
+    {"de":"während","en":"during"},
+    {"de":"der Morgen","en":"morning"},
+    {"de":"der Abend","en":"evening"},
+    {"de":"die Nacht","en":"night"},
+    {"de":"der Tag","en":"day"},
+    {"de":"die Woche","en":"week"},
+    {"de":"der Monat","en":"month"},
+    {"de":"das Jahr","en":"year"},
+    {"de":"heute","en":"today"},
+    {"de":"gestern","en":"yesterday"},
+    {"de":"morgen","en":"tomorrow"},
+    {"de":"jetzt","en":"now"},
+    {"de":"früher","en":"earlier"},
+    {"de":"später","en":"later"},
+    {"de":"immer","en":"always"},
+    {"de":"oft","en":"often"},
+    {"de":"manchmal","en":"sometimes"},
+    {"de":"selten","en":"rarely"},
+    {"de":"nie","en":"never"},
+    {"de":"beginnen","en":"to begin"},
+    {"de":"enden","en":"to end"},
+    {"de":"dauern","en":"to last"}
+  ],
+  "grammar":{
+    "title":"Time prepositions",
+    "rules":[
+      "am + day/time of day: am Montag, am Abend.",
+      "im + month/year: im Mai, im Jahr 2025.",
+      "um + clock time: um 8 Uhr.",
+      "seit = ongoing, vor = finished past.",
+      "bis shows an end point."
+    ],
+    "examples":[
+      "Ich arbeite am Montag.",
+      "Ich lerne seit zwei Jahren Deutsch.",
+      "Der Kurs dauert bis Freitag."
+    ],
+    "quiz":[
+      {"q":"Ich komme ___ 8 Uhr.","choices":["um","im"],"a":"um"},
+      {"q":"Ich wohne hier ___ 2022.","choices":["seit","vor"],"a":"seit"},
+      {"q":"Der Kurs endet ___ Freitag.","choices":["bis","um"],"a":"bis"}
+    ]
+  },
+  "listening":{
+    "level":"A2",
+    "totalMinutes":10,
+    "segments":[
+      {"id":1,"title":"Zeit","repeat":2,"text":"Ich arbeite am Morgen.","quiz":[{"q":"Wann arbeitet die Person?","choices":["am Morgen","in der Nacht"],"a":"am Morgen"}]},
+      {"id":2,"title":"Dauer","repeat":2,"text":"Ich lerne seit einem Jahr Deutsch.","quiz":[{"q":"Seit wann?","choices":["ein Jahr","gestern"],"a":"ein Jahr"}]},
+      {"id":3,"title":"Uhrzeit","repeat":2,"text":"Der Kurs beginnt um 9 Uhr.","quiz":[{"q":"Wann beginnt der Kurs?","choices":["9 Uhr","8 Uhr"],"a":"9 Uhr"}]},
+      {"id":4,"title":"Ende","repeat":2,"text":"Der Film dauert bis 22 Uhr.","quiz":[{"q":"Bis wann?","choices":["22 Uhr","21 Uhr"],"a":"22 Uhr"}]},
+      {"id":5,"title":"Mini","repeat":2,"text":"Ich lerne im Sommer.","quiz":[{"q":"Wann?","choices":["im Sommer","im Winter"],"a":"im Sommer"}]}
+    ]
+  },
+  "output":{"prompt":"Write 6–8 sentences using am, im, um, seit, bis."},
+  "outputRules":{"minSentences":6,"mustIncludeAny":["am","im","um","seit","bis"],"mustIncludeAllPatterns":[],"mustUseVocabAtLeast":2},
+  "passRules":{"vocabMinCorrect":0.8,"grammarMinCorrect":0.7,"listeningMinCorrect":0.67,"minOutputChars":120}
+},
+{
+  "day": 23,
+  "topic": "Prepositions of place (A2)",
+  "vocab_list": [
+    {"de":"in","en":"in"},
+    {"de":"auf","en":"on"},
+    {"de":"bei","en":"at"},
+    {"de":"zu","en":"to"},
+    {"de":"von","en":"from"},
+    {"de":"zwischen","en":"between"},
+    {"de":"neben","en":"next to"},
+    {"de":"gegenüber","en":"opposite"},
+    {"de":"über","en":"over"},
+    {"de":"unter","en":"under"},
+    {"de":"die Stadt","en":"city"},
+    {"de":"das Land","en":"country"},
+    {"de":"das Haus","en":"house"},
+    {"de":"die Wohnung","en":"apartment"},
+    {"de":"die Schule","en":"school"},
+    {"de":"die Arbeit","en":"work"},
+    {"de":"der Park","en":"park"},
+    {"de":"das Büro","en":"office"},
+    {"de":"der Laden","en":"shop"},
+    {"de":"die Straße","en":"street"},
+    {"de":"der Platz","en":"square"},
+    {"de":"gehen","en":"to go"},
+    {"de":"kommen","en":"to come"},
+    {"de":"bleiben","en":"to stay"},
+    {"de":"wohnen","en":"to live"},
+    {"de":"arbeiten","en":"to work"},
+    {"de":"treffen","en":"to meet"},
+    {"de":"liegen","en":"to be located"},
+    {"de":"stehen","en":"to stand"}
+  ],
+  "grammar":{
+    "title":"Place prepositions",
+    "rules":[
+      "zu + destination: zu Hause, zur Arbeit.",
+      "in + location/country/city.",
+      "bei = at someone’s place/work.",
+      "von = from.",
+      "Use dative after these prepositions (A2 focus)."
+    ],
+    "examples":[
+      "Ich wohne in Deutschland.",
+      "Ich gehe zur Arbeit.",
+      "Der Park liegt neben der Schule."
+    ],
+    "quiz":[
+      {"q":"Ich wohne ___ Berlin.","choices":["in","zu"],"a":"in"},
+      {"q":"Ich gehe ___ Arbeit.","choices":["zur","von"],"a":"zur"},
+      {"q":"Das Café ist ___ dem Kino.","choices":["neben","seit"],"a":"neben"}
+    ]
+  },
+  "listening":{
+    "level":"A2",
+    "totalMinutes":10,
+    "segments":[
+      {"id":1,"title":"Ort","repeat":2,"text":"Ich wohne in der Stadt.","quiz":[{"q":"Wo?","choices":["in der Stadt","auf dem Land"],"a":"in der Stadt"}]},
+      {"id":2,"title":"Arbeit","repeat":2,"text":"Ich gehe zur Arbeit.","quiz":[{"q":"Wohin?","choices":["zur Arbeit","nach Hause"],"a":"zur Arbeit"}]},
+      {"id":3,"title":"Treffen","repeat":2,"text":"Ich treffe Freunde im Park.","quiz":[{"q":"Wo?","choices":["im Park","im Büro"],"a":"im Park"}]},
+      {"id":4,"title":"Lage","repeat":2,"text":"Das Haus liegt neben der Schule.","quiz":[{"q":"Wo liegt das Haus?","choices":["neben der Schule","hinter dem Park"],"a":"neben der Schule"}]},
+      {"id":5,"title":"Mini","repeat":2,"text":"Ich bleibe zu Hause.","quiz":[{"q":"Wo bleibt die Person?","choices":["zu Hause","im Laden"],"a":"zu Hause"}]}
+    ]
+  },
+  "output":{"prompt":"Write 6–8 sentences describing places using in, zu, bei, neben."},
+  "outputRules":{"minSentences":6,"mustIncludeAny":["in","zu","bei","neben"],"mustIncludeAllPatterns":[],"mustUseVocabAtLeast":2},
+  "passRules":{"vocabMinCorrect":0.8,"grammarMinCorrect":0.7,"listeningMinCorrect":0.67,"minOutputChars":120}
+},
+{
+  "day": 24,
+  "topic": "Future tense: werden + infinitive (A2)",
+  "vocab_list": [
+    {"de":"werden","en":"will"},
+    {"de":"bald","en":"soon"},
+    {"de":"später","en":"later"},
+    {"de":"nächstes Jahr","en":"next year"},
+    {"de":"morgen","en":"tomorrow"},
+    {"de":"planen","en":"to plan"},
+    {"de":"hoffen","en":"to hope"},
+    {"de":"glauben","en":"to believe"},
+    {"de":"lernen","en":"to learn"},
+    {"de":"arbeiten","en":"to work"},
+    {"de":"reisen","en":"to travel"},
+    {"de":"umziehen","en":"to move"},
+    {"de":"beginnen","en":"to begin"},
+    {"de":"enden","en":"to end"},
+    {"de":"Studium","en":"studies"},
+    {"de":"Job","en":"job"},
+    {"de":"Projekt","en":"project"},
+    {"de":"Ziel","en":"goal"},
+    {"de":"Karriere","en":"career"},
+    {"de":"wichtig","en":"important"},
+    {"de":"schwierig","en":"difficult"},
+    {"de":"möglich","en":"possible"},
+    {"de":"sicher","en":"sure"},
+    {"de":"unsicher","en":"uncertain"},
+    {"de":"bereit","en":"ready"},
+    {"de":"erfolgreich","en":"successful"},
+    {"de":"versuchen","en":"to try"},
+    {"de":"entscheiden","en":"to decide"},
+    {"de":"bleiben","en":"to stay"}
+  ],
+  "grammar":{
+    "title":"Future with werden",
+    "rules":[
+      "werden + infinitive expresses future.",
+      "Main verb goes to the end.",
+      "Often used with time words.",
+      "Present tense can also express future.",
+      "werden is common for plans and predictions."
+    ],
+    "examples":[
+      "Ich werde morgen lernen.",
+      "Wir werden nächstes Jahr umziehen.",
+      "Es wird schwierig."
+    ],
+    "quiz":[
+      {"q":"Ich ___ morgen arbeiten.","choices":["werde","bin"],"a":"werde"},
+      {"q":"Wir werden Deutsch ___.","choices":["lernen","lernen wir"],"a":"lernen"},
+      {"q":"Es ___ besser.","choices":["wird","ist"],"a":"wird"}
+    ]
+  },
+  "listening":{
+    "level":"A2",
+    "totalMinutes":10,
+    "segments":[
+      {"id":1,"title":"Plan","repeat":2,"text":"Morgen werde ich lernen.","quiz":[{"q":"Wann?","choices":["morgen","gestern"],"a":"morgen"}]},
+      {"id":2,"title":"Zukunft","repeat":2,"text":"Ich werde bald einen Job finden.","quiz":[{"q":"Was bald?","choices":["Job finden","umziehen"],"a":"Job finden"}]},
+      {"id":3,"title":"Ziel","repeat":2,"text":"Ich werde mein Ziel erreichen.","quiz":[{"q":"Was wird passieren?","choices":["Ziel erreichen","bleiben"],"a":"Ziel erreichen"}]},
+      {"id":4,"title":"Gefühl","repeat":2,"text":"Es wird schwierig, aber möglich.","quiz":[{"q":"Wie ist es?","choices":["schwierig","langweilig"],"a":"schwierig"}]},
+      {"id":5,"title":"Mini","repeat":2,"text":"Wir werden später sprechen.","quiz":[{"q":"Wann?","choices":["später","jetzt"],"a":"später"}]}
+    ]
+  },
+  "output":{"prompt":"Write 6–8 sentences about future plans using werden."},
+  "outputRules":{"minSentences":6,"mustIncludeAny":["werde","werden"],"mustIncludeAllPatterns":[],"mustUseVocabAtLeast":2},
+  "passRules":{"vocabMinCorrect":0.8,"grammarMinCorrect":0.7,"listeningMinCorrect":0.67,"minOutputChars":120}
+},
+{
+  "day": 25,
+  "topic": "Imperative & polite requests (A2)",
+  "vocab_list": [
+    {"de":"kommen","en":"to come"},
+    {"de":"gehen","en":"to go"},
+    {"de":"nehmen","en":"to take"},
+    {"de":"bringen","en":"to bring"},
+    {"de":"warten","en":"to wait"},
+    {"de":"helfen","en":"to help"},
+    {"de":"bitte","en":"please"},
+    {"de":"danke","en":"thanks"},
+    {"de":"Entschuldigung","en":"excuse me"},
+    {"de":"sagen","en":"to say"},
+    {"de":"fragen","en":"to ask"},
+    {"de":"hören","en":"to listen"},
+    {"de":"sehen","en":"to see"},
+    {"de":"machen","en":"to do"},
+    {"de":"aufpassen","en":"to be careful"},
+    {"de":"ruhig","en":"calm"},
+    {"de":"laut","en":"loud"},
+    {"de":"schnell","en":"fast"},
+    {"de":"langsam","en":"slow"},
+    {"de":"noch einmal","en":"again"},
+    {"de":"öffnen","en":"to open"},
+    {"de":"schließen","en":"to close"},
+    {"de":"bleiben","en":"to stay"},
+    {"de":"sprechen","en":"to speak"},
+    {"de":"lesen","en":"to read"},
+    {"de":"schreiben","en":"to write"},
+    {"de":"zeigen","en":"to show"},
+    {"de":"erklären","en":"to explain"},
+    {"de":"wiederholen","en":"to repeat"}
+  ],
+  "grammar":{
+    "title":"Imperative & polite forms",
+    "rules":[
+      "Imperative (du): Komm! Geh! Hör zu!",
+      "Imperative (Sie): Kommen Sie bitte!",
+      "Use bitte to be polite.",
+      "Könnten Sie…? is very polite.",
+      "Imperatives are common in daily life."
+    ],
+    "examples":[
+      "Kommen Sie bitte hierher.",
+      "Warten Sie einen Moment.",
+      "Hör bitte zu!"
+    ],
+    "quiz":[
+      {"q":"___ Sie bitte hier.","choices":["Kommen","Komm"],"a":"Kommen"},
+      {"q":"___ bitte zu!","choices":["Hör","Hören"],"a":"Hör"},
+      {"q":"___ Sie das erklären?","choices":["Könnten","Seit"],"a":"Könnten"}
+    ]
+  },
+  "listening":{
+    "level":"A2",
+    "totalMinutes":10,
+    "segments":[
+      {"id":1,"title":"Bitte","repeat":2,"text":"Kommen Sie bitte herein.","quiz":[{"q":"Was soll man tun?","choices":["hereinkommen","gehen"],"a":"hereinkommen"}]},
+      {"id":2,"title":"Hilfe","repeat":2,"text":"Könnten Sie mir helfen?","quiz":[{"q":"Was fragt die Person?","choices":["um Hilfe","nach Zeit"],"a":"um Hilfe"}]},
+      {"id":3,"title":"Warten","repeat":2,"text":"Warten Sie bitte einen Moment.","quiz":[{"q":"Was soll man machen?","choices":["warten","laufen"],"a":"warten"}]},
+      {"id":4,"title":"Wiederholen","repeat":2,"text":"Könnten Sie das noch einmal sagen?","quiz":[{"q":"Was möchte die Person?","choices":["Wiederholung","Ende"],"a":"Wiederholung"}]},
+      {"id":5,"title":"Mini","repeat":2,"text":"Hör bitte zu.","quiz":[{"q":"Was soll man tun?","choices":["zuhören","sprechen"],"a":"zuhören"}]}
+    ]
+  },
+  "output":{"prompt":"Write 6–8 sentences using imperatives and polite requests."},
+  "outputRules":{"minSentences":6,"mustIncludeAny":["bitte","Könnten","Sie"],"mustIncludeAllPatterns":[],"mustUseVocabAtLeast":2},
+  "passRules":{"vocabMinCorrect":0.8,"grammarMinCorrect":0.7,"listeningMinCorrect":0.67,"minOutputChars":120}
+},
+ {
+    "day": 26,
+    "topic": "Adjective endings (basic) (A2)",
+    "vocab_list": [
+      {"de":"groß","en":"big"},
+      {"de":"klein","en":"small"},
+      {"de":"alt","en":"old"},
+      {"de":"neu","en":"new"},
+      {"de":"gut","en":"good"},
+      {"de":"schlecht","en":"bad"},
+      {"de":"teuer","en":"expensive"},
+      {"de":"billig","en":"cheap"},
+      {"de":"schön","en":"beautiful"},
+      {"de":"hässlich","en":"ugly"},
+      {"de":"lang","en":"long"},
+      {"de":"kurz","en":"short"},
+      {"de":"alt","en":"old"},
+      {"de":"jung","en":"young"},
+      {"de":"interessant","en":"interesting"},
+      {"de":"langweilig","en":"boring"},
+      {"de":"neu","en":"new"},
+      {"de":"bequem","en":"comfortable"},
+      {"de":"stark","en":"strong"},
+      {"de":"schwach","en":"weak"},
+      {"de":"der Mann","en":"man"},
+      {"de":"die Frau","en":"woman"},
+      {"de":"das Kind","en":"child"},
+      {"de":"der Tisch","en":"table"},
+      {"de":"die Stadt","en":"city"},
+      {"de":"das Auto","en":"car"},
+      {"de":"ein","en":"a"},
+      {"de":"eine","en":"a (feminine)"},
+      {"de":"der","en":"the (masc)"},
+      {"de":"die","en":"the (fem)"}
+    ],
+    "grammar":{
+      "title":"Adjective endings after der / die / das / ein / eine",
+      "rules":[
+        "After 'der/die/das': adjective ends with -e.",
+        "After 'ein/eine': adjective changes (ein großer Mann).",
+        "Basic A2 focus: nominative only.",
+        "Adjective comes before noun.",
+        "Do not overthink – patterns matter more than theory."
+      ],
+      "examples":[
+        "der große Mann",
+        "eine schöne Stadt",
+        "ein neues Auto"
+      ],
+      "quiz":[
+        {"q":"___ große Stadt","choices":["die","der"],"a":"die"},
+        {"q":"ein ___ Auto","choices":["neues","neu"],"a":"neues"},
+        {"q":"der ___ Mann","choices":["alte","alt"],"a":"alte"}
+      ]
+    },
+    "listening":{
+      "level":"A2",
+      "totalMinutes":10,
+      "segments":[
+        {"id":1,"title":"Beschreibung","repeat":2,"text":"Ich wohne in einer schönen Stadt. Die Stadt ist groß, aber nicht teuer.","quiz":[{"q":"Wie ist die Stadt?","choices":["schön","alt"],"a":"schön"}]},
+        {"id":2,"title":"Menschen","repeat":2,"text":"Der alte Mann sitzt auf einer Bank. Neben ihm spielt ein kleines Kind.","quiz":[{"q":"Wer sitzt auf der Bank?","choices":["der alte Mann","das Kind"],"a":"der alte Mann"}]},
+        {"id":3,"title":"Auto","repeat":2,"text":"Ich habe ein neues Auto. Das Auto ist bequem und nicht billig.","quiz":[{"q":"Wie ist das Auto?","choices":["neu","kaputt"],"a":"neu"}]},
+        {"id":4,"title":"Vergleich","repeat":2,"text":"Die alte Wohnung war klein. Die neue Wohnung ist größer.","quiz":[{"q":"Wie ist die neue Wohnung?","choices":["größer","kleiner"],"a":"größer"}]}
+      ]
+    },
+    "output":{"prompt":"Write 6–8 sentences describing people or things. Use adjective + noun at least 3 times."},
+    "outputRules":{"minSentences":6,"mustIncludeAny":["der","die","ein","eine"],"mustIncludeAllPatterns":[],"mustUseVocabAtLeast":2},
+    "passRules":{"vocabMinCorrect":0.8,"grammarMinCorrect":0.7,"listeningMinCorrect":0.67,"minOutputChars":120}
+  },
+
+  {
+    "day": 27,
+    "topic": "Problems & solutions (A2)",
+    "vocab_list": [
+      {"de":"das Problem","en":"problem"},
+      {"de":"die Lösung","en":"solution"},
+      {"de":"kaputt","en":"broken"},
+      {"de":"funktionieren","en":"to work"},
+      {"de":"reparieren","en":"to repair"},
+      {"de":"versuchen","en":"to try"},
+      {"de":"helfen","en":"to help"},
+      {"de":"brauchen","en":"to need"},
+      {"de":"dringend","en":"urgent"},
+      {"de":"sofort","en":"immediately"},
+      {"de":"wichtig","en":"important"},
+      {"de":"einfach","en":"easy"},
+      {"de":"schwierig","en":"difficult"},
+      {"de":"leider","en":"unfortunately"},
+      {"de":"zum Glück","en":"fortunately"},
+      {"de":"bitte","en":"please"},
+      {"de":"danke","en":"thanks"},
+      {"de":"der Fehler","en":"mistake"},
+      {"de":"ändern","en":"to change"},
+      {"de":"klären","en":"to clarify"},
+      {"de":"warten","en":"to wait"},
+      {"de":"melden","en":"to report"},
+      {"de":"rufen","en":"to call"},
+      {"de":"schreiben","en":"to write"},
+      {"de":"finden","en":"to find"},
+      {"de":"Zeit","en":"time"},
+      {"de":"Hilfe","en":"help"},
+      {"de":"die Idee","en":"idea"},
+      {"de":"besser","en":"better"}
+    ],
+    "grammar":{
+      "title":"Talking about problems politely",
+      "rules":[
+        "Use 'Es gibt ein Problem mit…'",
+        "Use '… funktioniert nicht'.",
+        "Use 'können / sollten' for solutions.",
+        "Use polite tone with bitte.",
+        "Perfekt for what happened."
+      ],
+      "examples":[
+        "Es gibt ein Problem mit dem Internet.",
+        "Das Gerät funktioniert nicht.",
+        "Könnten Sie mir bitte helfen?"
+      ],
+      "quiz":[
+        {"q":"Es gibt ___ Problem.","choices":["ein","eine"],"a":"ein"},
+        {"q":"Das Gerät ___ nicht.","choices":["funktioniert","funktioniere"],"a":"funktioniert"},
+        {"q":"Sie ___ helfen.","choices":["sollten","haben"],"a":"sollten"}
+      ]
+    },
+    "listening":{
+      "level":"A2",
+      "totalMinutes":10,
+      "segments":[
+        {"id":1,"title":"Technik","repeat":2,"text":"Mein Handy funktioniert nicht. Leider habe ich ein Problem.","quiz":[{"q":"Was funktioniert nicht?","choices":["das Handy","das Auto"],"a":"das Handy"}]},
+        {"id":2,"title":"Hilfe","repeat":2,"text":"Ich bitte einen Freund um Hilfe. Er versucht, das Problem zu lösen.","quiz":[{"q":"Wer hilft?","choices":["ein Freund","der Arzt"],"a":"ein Freund"}]},
+        {"id":3,"title":"Lösung","repeat":2,"text":"Zum Glück finden wir eine Lösung.","quiz":[{"q":"Was finden sie?","choices":["eine Lösung","einen Fehler"],"a":"eine Lösung"}]},
+        {"id":4,"title":"Warten","repeat":2,"text":"Wenn es schwierig ist, muss man warten.","quiz":[{"q":"Was muss man manchmal?","choices":["warten","rennen"],"a":"warten"}]}
+      ]
+    },
+    "output":{"prompt":"Write 6–8 sentences about a problem and a solution. Use 'Es gibt ein Problem…'."},
+    "outputRules":{"minSentences":6,"mustIncludeAny":["Problem","Lösung","funktioniert nicht"],"mustIncludeAllPatterns":[],"mustUseVocabAtLeast":2},
+    "passRules":{"vocabMinCorrect":0.8,"grammarMinCorrect":0.7,"listeningMinCorrect":0.67,"minOutputChars":120}
+  },
+
+  {
+    "day": 28,
+    "topic": "Opinions & arguments (A2→B1)",
+    "vocab_list": [
+      {"de":"meiner Meinung nach","en":"in my opinion"},
+      {"de":"ich denke","en":"I think"},
+      {"de":"ich finde","en":"I find"},
+      {"de":"wichtig","en":"important"},
+      {"de":"unwichtig","en":"unimportant"},
+      {"de":"gut","en":"good"},
+      {"de":"schlecht","en":"bad"},
+      {"de":"praktisch","en":"practical"},
+      {"de":"unnötig","en":"unnecessary"},
+      {"de":"richtig","en":"right"},
+      {"de":"falsch","en":"wrong"},
+      {"de":"der Grund","en":"reason"},
+      {"de":"weil","en":"because"},
+      {"de":"deshalb","en":"therefore"},
+      {"de":"zum Beispiel","en":"for example"},
+      {"de":"oft","en":"often"},
+      {"de":"manchmal","en":"sometimes"},
+      {"de":"viele","en":"many"},
+      {"de":"wenige","en":"few"},
+      {"de":"Menschen","en":"people"},
+      {"de":"lernen","en":"to learn"},
+      {"de":"arbeiten","en":"to work"},
+      {"de":"Zeit","en":"time"},
+      {"de":"Geld","en":"money"},
+      {"de":"Stress","en":"stress"},
+      {"de":"Freizeit","en":"free time"},
+      {"de":"hilfreich","en":"helpful"},
+      {"de":"schwierig","en":"difficult"},
+      {"de":"einfach","en":"easy"}
+    ],
+    "grammar":{
+      "title":"Giving opinions with weil / deshalb",
+      "rules":[
+        "Ich denke, dass …",
+        "Use 'weil' for reasons (verb at end).",
+        "Use 'deshalb' as result (verb second).",
+        "Opinion phrases are very common in B1.",
+        "Keep sentences simple and clear."
+      ],
+      "examples":[
+        "Ich finde Deutsch wichtig.",
+        "Ich lerne Deutsch, weil ich hier arbeite.",
+        "Deshalb übe ich jeden Tag."
+      ],
+      "quiz":[
+        {"q":"Ich lerne Deutsch, ___ ich hier arbeite.","choices":["weil","deshalb"],"a":"weil"},
+        {"q":"Ich arbeite hier, ___ lerne ich Deutsch.","choices":["deshalb","weil"],"a":"deshalb"},
+        {"q":"___ Meinung nach ist Deutsch wichtig.","choices":["Meiner","Mein"],"a":"Meiner"}
+      ]
+    },
+    "listening":{
+      "level":"A2",
+      "totalMinutes":10,
+      "segments":[
+        {"id":1,"title":"Meinung","repeat":2,"text":"Meiner Meinung nach ist Deutschlernen wichtig.","quiz":[{"q":"Was ist wichtig?","choices":["Deutschlernen","Urlaub"],"a":"Deutschlernen"}]},
+        {"id":2,"title":"Grund","repeat":2,"text":"Ich lerne Deutsch, weil ich in Deutschland lebe.","quiz":[{"q":"Warum lernt die Person Deutsch?","choices":["sie lebt in Deutschland","sie reist"],"a":"sie lebt in Deutschland"}]},
+        {"id":3,"title":"Folge","repeat":2,"text":"Deshalb übe ich jeden Tag.","quiz":[{"q":"Was macht die Person deshalb?","choices":["üben","schlafen"],"a":"üben"}]},
+        {"id":4,"title":"Beispiel","repeat":2,"text":"Zum Beispiel lese ich Texte und höre Podcasts.","quiz":[{"q":"Was macht die Person?","choices":["liest und hört","arbeitet"],"a":"liest und hört"}]}
+      ]
+    },
+    "output":{"prompt":"Write 6–8 sentences giving your opinion. Use 'meiner Meinung nach' and 'weil'."},
+    "outputRules":{"minSentences":6,"mustIncludeAny":["meiner Meinung nach","weil"],"mustIncludeAllPatterns":[],"mustUseVocabAtLeast":2},
+    "passRules":{"vocabMinCorrect":0.8,"grammarMinCorrect":0.7,"listeningMinCorrect":0.67,"minOutputChars":120}
+  },
+
+  {
+    "day": 29,
+    "topic": "Storytelling recap (Perfekt mastery)",
+    "vocab_list": [
+      {"de":"gestern","en":"yesterday"},
+      {"de":"letzte Woche","en":"last week"},
+      {"de":"früher","en":"earlier"},
+      {"de":"dann","en":"then"},
+      {"de":"danach","en":"after that"},
+      {"de":"plötzlich","en":"suddenly"},
+      {"de":"zuerst","en":"first"},
+      {"de":"am Ende","en":"at the end"},
+      {"de":"passieren","en":"to happen"},
+      {"de":"beginnen","en":"to begin"},
+      {"de":"enden","en":"to end"},
+      {"de":"gehen","en":"to go"},
+      {"de":"kommen","en":"to come"},
+      {"de":"sehen","en":"to see"},
+      {"de":"machen","en":"to do"},
+      {"de":"finden","en":"to find"},
+      {"de":"denken","en":"to think"},
+      {"de":"fühlen","en":"to feel"},
+      {"de":"glücklich","en":"happy"},
+      {"de":"müde","en":"tired"},
+      {"de":"überrascht","en":"surprised"},
+      {"de":"Problem","en":"problem"},
+      {"de":"Lösung","en":"solution"},
+      {"de":"lernen","en":"to learn"},
+      {"de":"arbeiten","en":"to work"},
+      {"de":"Zeit","en":"time"},
+      {"de":"Erfahrung","en":"experience"},
+      {"de":"Geschichte","en":"story"},
+      {"de":"erzählen","en":"to tell"}
+    ],
+    "grammar":{
+      "title":"Perfekt recap + story order",
+      "rules":[
+        "Perfekt = haben/sein + Partizip II.",
+        "Use time words to order story.",
+        "Mix haben and sein correctly.",
+        "Short sentences are fine.",
+        "Clarity > complexity."
+      ],
+      "examples":[
+        "Gestern bin ich früh aufgestanden.",
+        "Dann habe ich gearbeitet.",
+        "Am Ende bin ich müde gewesen."
+      ],
+      "quiz":[
+        {"q":"Ich ___ nach Hause gegangen.","choices":["bin","habe"],"a":"bin"},
+        {"q":"Ich ___ viel gelernt.","choices":["habe","bin"],"a":"habe"},
+        {"q":"___ habe ich gegessen.","choices":["Dann","Gehen"],"a":"Dann"}
+      ]
+    },
+    "listening":{
+      "level":"A2",
+      "totalMinutes":10,
+      "segments":[
+        {"id":1,"title":"Gestern","repeat":2,"text":"Gestern bin ich früh aufgestanden.","quiz":[{"q":"Wann?","choices":["gestern","morgen"],"a":"gestern"}]},
+        {"id":2,"title":"Arbeit","repeat":2,"text":"Dann habe ich gearbeitet.","quiz":[{"q":"Was hat die Person gemacht?","choices":["gearbeitet","geschlafen"],"a":"gearbeitet"}]},
+        {"id":3,"title":"Problem","repeat":2,"text":"Plötzlich gab es ein Problem.","quiz":[{"q":"Was gab es?","choices":["ein Problem","einen Urlaub"],"a":"ein Problem"}]},
+        {"id":4,"title":"Ende","repeat":2,"text":"Am Ende war alles gut.","quiz":[{"q":"Wie war es am Ende?","choices":["gut","schlecht"],"a":"gut"}]}
+      ]
+    },
+    "output":{"prompt":"Write a short story (6–8 sentences) about yesterday using Perfekt and time words."},
+    "outputRules":{"minSentences":6,"mustIncludeAny":["gestern","dann","am Ende"],"mustIncludeAllPatterns":["\\bhabe\\b","\\bbin\\b"],"mustUseVocabAtLeast":2},
+    "passRules":{"vocabMinCorrect":0.8,"grammarMinCorrect":0.7,"listeningMinCorrect":0.67,"minOutputChars":120}
+  },
+
+  {
+    "day": 30,
+    "topic": "A2 Final Review & Mock Test",
+    "vocab_list": [],
+    "grammar":{
+      "title":"Full A2 review",
+      "rules":[
+        "Review all tenses, word order, and connectors.",
+        "Focus on clarity and correctness.",
+        "Use vocabulary actively.",
+        "Do not rush.",
+        "Confidence matters."
+      ],
+      "examples":[
+        "Ich kann Deutsch sprechen.",
+        "Ich lerne, weil ich hier lebe."
+      ],
+      "quiz":[
+        {"q":"Ich ___ Deutsch, weil ich hier ___ .","choices":["lerne / lebe","lebe / lerne"],"a":"lerne / lebe"}
+      ]
+    },
+    "listening":{
+      "level":"A2",
+      "totalMinutes":10,
+      "segments":[
+        {"id":1,"title":"Review","repeat":2,"text":"Ich habe Deutsch gelernt und viel geübt.","quiz":[{"q":"Was hat die Person gemacht?","choices":["Deutsch gelernt","aufgegeben"],"a":"Deutsch gelernt"}]},
+        {"id":2,"title":"Ziel","repeat":2,"text":"Jetzt fühle ich mich sicherer.","quiz":[{"q":"Wie fühlt sich die Person?","choices":["sicherer","nervös"],"a":"sicherer"}]}
+      ]
+    },
+    "output":{"prompt":"Write 8–10 sentences summarizing your German learning journey so far."},
+    "outputRules":{"minSentences":8,"mustIncludeAny":[],"mustIncludeAllPatterns":[],"mustUseVocabAtLeast":0},
+    "passRules":{"vocabMinCorrect":0.7,"grammarMinCorrect":0.7,"listeningMinCorrect":0.6,"minOutputChars":150}
+  },
+  {
+  "day": 31,
+  "topic": "A2 Final Exam – Goethe Style (Quiz Only)",
+
+  "vocab_list": [],
+
+  "vocab_quiz": [
+    { "word": "Termin", "choices": ["holiday", "appointment", "problem"], "answer": "appointment" },
+    { "word": "leider", "choices": ["quickly", "unfortunately", "happily"], "answer": "unfortunately" },
+    { "word": "frei", "choices": ["tired", "late", "free"], "answer": "free" },
+    { "word": "Lösung", "choices": ["question", "mistake", "solution"], "answer": "solution" },
+    { "word": "gern", "choices": ["never", "gladly", "slowly"], "answer": "gladly" }
+  ],
+
+  "grammar": {
+    "title": "A2 Grammar Exam",
+    "rules": [],
+    "examples": [],
+    "quiz": [
+      {
+        "q": "Ich ___ heute arbeiten, weil ich Zeit habe.",
+        "choices": ["bin", "muss", "werde"],
+        "a": "muss"
+      },
+      {
+        "q": "Ich lerne Deutsch, ___ ich in Deutschland lebe.",
+        "choices": ["deshalb", "und", "weil"],
+        "a": "weil"
+      },
+      {
+        "q": "Gestern ___ ich zu Hause geblieben.",
+        "choices": ["habe", "werde", "bin"],
+        "a": "bin"
+      },
+      {
+        "q": "Ich ___ morgen früher kommen.",
+        "choices": ["bin", "will", "habe"],
+        "a": "will"
+      },
+      {
+        "q": "Der ___ Mann wartet draußen.",
+        "choices": ["alt", "alten", "alte"],
+        "a": "alte"
+      }
+    ]
+  },
+
+  "listening": {
+    "level": "A2",
+    "totalMinutes": 10,
+    "segments": [
+      {
+        "id": 1,
+        "title": "Nachricht",
+        "repeat": 2,
+        "text": "Guten Tag. Leider kann ich heute nicht kommen, weil ich krank bin.",
+        "quiz": [
+          {
+            "q": "Warum kann die Person nicht kommen?",
+            "choices": ["sie arbeitet", "sie reist", "sie ist krank"],
+            "a": "sie ist krank"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Plan",
+        "repeat": 2,
+        "text": "Morgen habe ich einen Termin und muss früh aufstehen.",
+        "quiz": [
+          {
+            "q": "Was muss die Person morgen tun?",
+            "choices": ["frei nehmen", "früh aufstehen", "spät kommen"],
+            "a": "früh aufstehen"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Meinung",
+        "repeat": 2,
+        "text": "Meiner Meinung nach ist Deutschlernen wichtig, deshalb übe ich jeden Tag.",
+        "quiz": [
+          {
+            "q": "Warum übt die Person jeden Tag?",
+            "choices": ["sie reist", "Deutsch ist wichtig", "sie hat viel Zeit"],
+            "a": "Deutsch ist wichtig"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Erfahrung",
+        "repeat": 2,
+        "text": "Gestern habe ich viel gearbeitet und war abends sehr müde.",
+        "quiz": [
+          {
+            "q": "Wie war die Person am Abend?",
+            "choices": ["frei", "glücklich", "müde"],
+            "a": "müde"
+          }
+        ]
+      }
+    ]
+  },
+
+  "output": {
+    "prompt": "Write 8–10 sentences. Describe your day yesterday, your plans for tomorrow, and give your opinion about learning German."
+  },
+
+  "outputRules": {
+    "minSentences": 8,
+    "mustIncludeAny": ["gestern", "morgen", "weil", "meiner Meinung nach"],
+    "mustIncludeAllPatterns": ["\\bhabe\\b|\\bbin\\b"],
+    "mustUseVocabAtLeast": 0
+  },
+
+  "passRules": {
+    "vocabMinCorrect": 0.7,
+    "grammarMinCorrect": 0.7,
+    "listeningMinCorrect": 0.6,
+    "minOutputChars": 150
+  }
+},
+{
+  "day": 32,
+  "topic": "A2 Speaking Exam – Goethe Style (Sprechen) – Simulation (Quiz Only)",
+
+  "vocab_list": [],
+
+  "vocab_quiz": [
+    {
+      "word": "Warm-up: Choose the best reply → \"Guten Tag. Wie heißen Sie?\"",
+      "choices": ["Ich heiße M. A. Hafiz.", "Ich komme aus der Küche.", "Ich habe gestern gearbeitet."],
+      "answer": "Ich heiße M. A. Hafiz."
+    },
+    {
+      "word": "Choose the best reply → \"Wo wohnen Sie?\"",
+      "choices": ["Ich wohne in Erlangen.", "Ich esse gern Salat.", "Ich bin um acht Uhr."],
+      "answer": "Ich wohne in Erlangen."
+    },
+    {
+      "word": "Choose the best reply → \"Was machen Sie beruflich?\"",
+      "choices": ["Ich bin Student.", "Ich habe Kopfschmerzen.", "Ich fahre mit dem Bus."],
+      "answer": "Ich bin Student."
+    },
+    {
+      "word": "Choose the best reply → \"Welche Sprachen sprechen Sie?\"",
+      "choices": ["Deutsch und Englisch.", "Ich habe eine Quittung.", "Morgen gehe ich einkaufen."],
+      "answer": "Deutsch und Englisch."
+    },
+    {
+      "word": "Choose the best reply → \"Was machen Sie gern in Ihrer Freizeit?\"",
+      "choices": ["Ich gehe gern spazieren.", "Ich bin seit zwei Jahren.", "Die Heizung ist kaputt."],
+      "answer": "Ich gehe gern spazieren."
+    }
+  ],
+
+  "grammar": {
+    "title": "A2 Speaking Tasks (Role-play + Picture prompts)",
+    "rules": [],
+    "examples": [],
+    "quiz": [
+      {
+        "q": "Teil 2 (Fragen stellen): You see the topic card: \"Freizeit\". Which question is correct?",
+        "choices": ["Was machst du gern am Wochenende?", "Woher du kommst?", "Gestern bin ich müde."],
+        "a": "Was machst du gern am Wochenende?"
+      },
+      {
+        "q": "Teil 2 (Fragen stellen): Topic card: \"Einkaufen\". Choose a correct question.",
+        "choices": ["Wie viel kostet das?", "Ich hätte gern einen Kaffee.", "Seit wann wohnst du hier?"],
+        "a": "Wie viel kostet das?"
+      },
+      {
+        "q": "Teil 2 (Fragen stellen): Topic card: \"Arzt\". Choose a correct question.",
+        "choices": ["Wo tut es weh?", "Ich habe eine Jacke.", "Gehen Sie geradeaus."],
+        "a": "Wo tut es weh?"
+      },
+      {
+        "q": "Teil 2 (Antworten): Your partner asks: \"Wann haben Sie Zeit?\" Choose the best answer.",
+        "choices": ["Am Donnerstag um 16 Uhr.", "Ich bin kaputt.", "Links an der Ampel."],
+        "a": "Am Donnerstag um 16 Uhr."
+      },
+      {
+        "q": "Teil 2 (Antworten): Your partner asks: \"Können wir uns morgen treffen?\" Choose the best answer.",
+        "choices": ["Ja, gern! Um 18 Uhr passt es.", "Ich habe Fieber seit gestern.", "Die Quittung ist hier."],
+        "a": "Ja, gern! Um 18 Uhr passt es."
+      }
+    ]
+  },
+
+  "listening": {
+    "level": "A2",
+    "totalMinutes": 10,
+    "segments": [
+      {
+        "id": 1,
+        "title": "Sprechen Teil 1 – Sich vorstellen (Model)",
+        "repeat": 1,
+        "text": "Hallo, ich heiße M. A. Hafiz. Ich wohne in Erlangen. Ich bin Student und lerne Deutsch. In meiner Freizeit gehe ich gern spazieren und höre Musik. Ich möchte mein Deutsch verbessern, weil ich hier in Deutschland gut kommunizieren will.",
+        "quiz": [
+          {
+            "q": "What information should you say in Teil 1 (Sich vorstellen)?",
+            "choices": ["Name, Wohnort, Beruf/Studium, Freizeit", "Nur Wetter und Politik", "Nur Zahlen und Preise"],
+            "a": "Name, Wohnort, Beruf/Studium, Freizeit"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Sprechen Teil 2 – Fragen & Antworten (Model)",
+        "repeat": 1,
+        "text": "The examiner gives a topic. You ask your partner a question. Example: Thema \"Einkaufen\" → \"Wo kaufen Sie gern ein?\" Your partner answers. Then you answer a question from your partner clearly and politely.",
+        "quiz": [
+          {
+            "q": "What is the goal in Teil 2?",
+            "choices": ["Ask questions and answer questions", "Write a long email", "Read a newspaper silently"],
+            "a": "Ask questions and answer questions"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Sprechen Teil 3 – Bildbeschreibung (Model)",
+        "repeat": 1,
+        "text": "You get a picture. You say: Where is it? What do you see? What are people doing? Give your opinion. Speak in simple A2 sentences: \"Ich sehe...\" \"Links/rechts...\" \"Vielleicht...\" \"Ich finde...\"",
+        "quiz": [
+          {
+            "q": "Which structure is best for a picture description?",
+            "choices": ["Place → what you see → actions → opinion", "Only grammar rules", "Only 1 word answers"],
+            "a": "Place → what you see → actions → opinion"
+          }
+        ]
+      }
+    ]
+  },
+
+  "output": {
+    "prompt": "SPEAKING SIMULATION (write your spoken answers):\n\nTeil 1 – Sich vorstellen (8–10 sentences):\n- Name, Wohnort, Herkunft, Sprachen, Beruf/Studium\n- Tagesablauf kurz + Freizeit\n- Warum lernen Sie Deutsch?\n\nTeil 2 – Fragen & Antworten:\nA) Ask 3 questions (write them):\n1) Thema: Freizeit\n2) Thema: Einkaufen\n3) Thema: Arzt / Gesundheit\nB) Answer these 3 questions (write answers, 1–2 sentences each):\n1) \"Wann haben Sie Zeit?\"\n2) \"Wie kommen Sie zur Arbeit / zur Uni?\"\n3) \"Was machen Sie, wenn Sie krank sind?\"\n\nTeil 3 – Bildbeschreibung (choose 1 of the 3 picture prompts below and describe 8–10 sentences):\nPicture A: \"In a café\" (people sitting, ordering drinks, waiter, menu)\nPicture B: \"At a bus stop\" (people waiting, timetable, bus arriving, ticket)\nPicture C: \"In an apartment\" (a broken lamp or heating problem, calling landlord)\n\nUse simple A2 sentences: \"Ich sehe...\", \"Links/rechts...\", \"Dann...\", \"Ich finde...\""
+  },
+
+  "outputRules": {
+    "minSentences": 18,
+    "mustIncludeAny": ["ich heiße", "ich wohne", "ich spreche", "ich lerne deutsch", "ich sehe", "ich finde"],
+    "mustIncludeAllPatterns": [],
+    "mustUseVocabAtLeast": 0
+  },
+
+  "passRules": {
+    "vocabMinCorrect": 0.6,
+    "grammarMinCorrect": 0.6,
+    "listeningMinCorrect": 0.5,
+    "minOutputChars": 350
+  }
+}
+
+
+
+]
